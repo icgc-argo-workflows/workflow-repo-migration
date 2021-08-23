@@ -31,18 +31,6 @@ to process production data must be reproducible, even after the source code repo
   how it works before the migration.
 
 
-## Workflow source repositories to be migrated
-
-| Original repo                         |   Original org        | Migration status |  New repo | New org |
-|---------------------------------------|-----------------------|------------------|-----------|----------|
-| [dna-seq-processing-wfs](https://github.com/icgc-argo/dna-seq-processing-wfs)  | icgc-argo  | To be done |   | icgc-argo-workflows |
-| [nextflow-data-processing-utility-tools](https://github.com/icgc-argo/nextflow-data-processing-utility-tools) | icgc-argo | To be done|  | icgc-argo-workflows  |
-| [data-processing-utility-tools](https://github.com/icgc-argo/data-processing-utility-tools)  |  icgc-argo  | To be done |     | icgc-argo-workflows  |
-| [dna-seq-processing-tools](https://github.com/icgc-argo/dna-seq-processing-tools)  | icgc-argo  | To be done |    | icgc-argo-workflows |
-| [data-qc-tools-and-wfs](https://github.com/icgc-argo/data-qc-tools-and-wfs)  | icgc-argo  | To be done |   | icgc-argo-workflows |
-| [gatk-tools](https://github.com/icgc-argo/gatk-tools)                        | icgc-argo  | To be done |   | icgc-argo-workflows |
-
-
 ## Repository migration standard operating procedure (SOP)
 
 For each repository to be migrated, please follow these steps:
@@ -61,3 +49,16 @@ For each repository to be migrated, please follow these steps:
    for docker registries (neither ghcr.io nor quay.io), all docker images registered under the original organization
    continue to exist and must be maintained to ensure all workflows to run properly, at this point the same workflow
    can be run from both old and new repo. 
+
+
+## Workflow source repositories to be migrated
+
+| Original repo                         |   Original org        | Migration status |  New repo | New org |
+|---------------------------------------|-----------------------|------------------|-----------|----------|
+| [dna-seq-processing-wfs](https://github.com/icgc-argo/dna-seq-processing-wfs)  | icgc-argo  | To be done |   | icgc-argo-workflows |
+| [nextflow-data-processing-utility-tools](https://github.com/icgc-argo/nextflow-data-processing-utility-tools) | icgc-argo | To be done|  | icgc-argo-workflows  |
+| [data-processing-utility-tools](https://github.com/icgc-argo/data-processing-utility-tools)  |  icgc-argo  | To be done |     | icgc-argo-workflows  |
+| [dna-seq-processing-tools](https://github.com/icgc-argo/dna-seq-processing-tools)  | icgc-argo  | To be done |    | icgc-argo-workflows |
+| [data-qc-tools-and-wfs](https://github.com/icgc-argo/data-qc-tools-and-wfs)  | icgc-argo  | To be done |   | icgc-argo-workflows |
+| [gatk-tools](https://github.com/icgc-argo/gatk-tools)                        | icgc-argo  | To be done |   | icgc-argo-workflows |
+

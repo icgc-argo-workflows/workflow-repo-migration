@@ -61,4 +61,9 @@ For each repository to be migrated, please follow these steps:
 | [dna-seq-processing-tools](https://github.com/icgc-argo/dna-seq-processing-tools)  | icgc-argo  | To be done |    | icgc-argo-workflows |
 | [data-qc-tools-and-wfs](https://github.com/icgc-argo/data-qc-tools-and-wfs)  | icgc-argo  | To be done |   | icgc-argo-workflows |
 | [gatk-tools](https://github.com/icgc-argo/gatk-tools)                        | icgc-argo  | To be done |   | icgc-argo-workflows |
+| [sanger-wgs-variant-calling](https://github.com/icgc-argo/sanger-wgs-variant-calling)                        | icgc-argo  | To be done |   | icgc-argo-workflows |
+| [sanger-wxs-variant-calling](https://github.com/icgc-argo/sanger-wxs-variant-calling)                        | icgc-argo  | To be done |   | icgc-argo-workflows |
+| [gatk-mutect2-variant-calling](https://github.com/icgc-argo/gatk-mutect2-variant-calling)                        | icgc-argo  | To be done |   | icgc-argo-workflows |
+| [variant-calling-tools](https://github.com/icgc-argo/variant-calling-tools)                        | icgc-argo  | To be done |   | icgc-argo-workflows |
+| [open-access-variant-filtering](https://github.com/icgc-argo/open-access-variant-filtering)                        | icgc-argo  | To be done |   | icgc-argo-workflows |
 

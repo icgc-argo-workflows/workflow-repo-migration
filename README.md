@@ -19,16 +19,16 @@ After workflow source code repository migration, we'd like to make it no impact 
 is primarily to fulfill our commitment to workflow reproducibility. All versions of the ARGO workflows were used
 to process production data must be reproducible, even after the source code repo migration.
 
-1. There is also a fallback plan if things happened not as expected. The fallback plan is to transfer the
-   original repo back to the original organization.
-2. The migration process should be brief, typically should be under 10 minutes per repo.
-3. After migration, for any released version of the workflow, it can be run properly using either the original
-   git url or the new one. And in either case, the workflow code and docker images used should be exactly the same.
-4. Original repositories must be archived and maintained (not to be deleted) from the original organization.
-5. Original docker images must be maintained at the original github organization (either ghcr.io or quay.io
-   depending on the origina of the docker image).
-6. WFPM packages released under the original repositories will continue to be available to be imported, just like
-   how it works before the migration.
+* There is also a fallback plan if things happened not as expected. The fallback plan is to transfer the
+  original repo back to the original organization.
+* The migration process should be brief, typically should be under 10 minutes per repo.
+* After migration, for any released version of the workflow, it can be run properly using either the original
+  git url or the new one. And in either case, the workflow code and docker images used should be exactly the same.
+* Original repositories must be archived and maintained (not to be deleted) from the original organization.
+* Original docker images must be maintained at the original github organization (either ghcr.io or quay.io
+  depending on the origina of the docker image).
+* WFPM packages released under the original repositories will continue to be available to be imported, just like
+  how it works before the migration.
 
 
 ## Workflow source repositories to be migrated
@@ -52,7 +52,8 @@ For each repository to be migrated, please follow these steps:
    the forked repo at the original organization so that the releases are the same as what in the repo under the new organization
 4. In the forked repo under the original organization, add archive note in README.md and commit. Archive note may look like:
    ```
-   NOTE: this repository is archived to support workflow reproducibility. Active development continues at: <url to the new repo>
+   NOTE: this repository is archived to support workflow reproducibility. Active development
+   continues at: <url to the new repo>
    ```
 5. Archive the forked repo under the original organization, the archived repo must be maintained for as long as
    needed to maintain reproducibility of workflow versions ran in ARGO production.

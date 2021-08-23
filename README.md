@@ -35,12 +35,12 @@ to process production data must be reproducible, even after the source code repo
 
 | Original repo                         |   Original org        | Migration status |  New repo | New org |
 |---------------------------------------|-----------------------|------------------|-----------|----------|
-| [dna-seq-processing-wfs](https://github.com/icgc-argo/dna-seq-processing-wfs)  | icgc-argo  | To be done |   |  |
-| [nextflow-data-processing-utility-tools](https://github.com/icgc-argo/nextflow-data-processing-utility-tools) | icgc-argo | To be done|  |   |
-| [data-processing-utility-tools](https://github.com/icgc-argo/data-processing-utility-tools)  |  icgc-argo  | To be done |     |   |
-| [dna-seq-processing-tools](https://github.com/icgc-argo/dna-seq-processing-tools)  | icgc-argo  | To be done |    |  |
-| [data-qc-tools-and-wfs](https://github.com/icgc-argo/data-qc-tools-and-wfs)  | icgc-argo  | To be done |   |  |
-| [gatk-tools](https://github.com/icgc-argo/gatk-tools)                        | icgc-argo  | To be done |   |  |
+| [dna-seq-processing-wfs](https://github.com/icgc-argo/dna-seq-processing-wfs)  | icgc-argo  | To be done |   | icgc-argo-workflows |
+| [nextflow-data-processing-utility-tools](https://github.com/icgc-argo/nextflow-data-processing-utility-tools) | icgc-argo | To be done|  | icgc-argo-workflows  |
+| [data-processing-utility-tools](https://github.com/icgc-argo/data-processing-utility-tools)  |  icgc-argo  | To be done |     | icgc-argo-workflows  |
+| [dna-seq-processing-tools](https://github.com/icgc-argo/dna-seq-processing-tools)  | icgc-argo  | To be done |    | icgc-argo-workflows |
+| [data-qc-tools-and-wfs](https://github.com/icgc-argo/data-qc-tools-and-wfs)  | icgc-argo  | To be done |   | icgc-argo-workflows |
+| [gatk-tools](https://github.com/icgc-argo/gatk-tools)                        | icgc-argo  | To be done |   | icgc-argo-workflows |
 
 
 ## Repository migration standard operating procedure (SOP)

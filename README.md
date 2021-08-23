@@ -45,10 +45,7 @@ For each repository to be migrated, please follow these steps:
    ```
 5. Archive the forked repo under the original organization, the archived repo must be maintained for as long as
    needed to maintain reproducibility of workflow versions ran in ARGO production.
-6. Note that GitHub repo ownership transfer does not affect docker images created from those repos. No work needed
-   for docker registries (neither ghcr.io nor quay.io), all docker images registered under the original organization
-   continue to exist and must be maintained to ensure all workflows to run properly, at this point the same workflow
-   can be run from both old and new repo. 
+6. Continue to maintain all existing docker images registered under either the original GitHub organization or under quay.io.
 
 
 ## Workflow source repositories to be migrated

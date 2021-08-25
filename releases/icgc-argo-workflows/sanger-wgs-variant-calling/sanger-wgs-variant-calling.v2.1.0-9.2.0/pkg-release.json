@@ -1,0 +1,60 @@
+{
+    "_release": {
+        "assets": [
+            {
+                "checksum": "4c803ef02f2901a1f6a107808806242492d2d7cc5333b9d494b35a3c0cd4d92c",
+                "checksum_type": "sha256",
+                "download_url": "https://github.com/icgc-argo/sanger-wgs-variant-calling/releases/download/sanger-wgs-variant-calling.v2.1.0-9.2.0/sanger-wgs-variant-calling.v2.1.0-9.2.0.tar.gz",
+                "filename": "sanger-wgs-variant-calling.v2.1.0-9.2.0.tar.gz",
+                "size": 3299935
+            },
+            {
+                "_NOTE_": "this file",
+                "checksum": null,
+                "checksum_type": null,
+                "download_url": "https://github.com/icgc-argo/sanger-wgs-variant-calling/releases/download/sanger-wgs-variant-calling.v2.1.0-9.2.0/pkg-release.json",
+                "filename": "pkg-release.json",
+                "size": null
+            }
+        ],
+        "created": "2021-03-19T18:19:53Z",
+        "hash": {
+            "checksum_type": "sha1",
+            "checksume": "fda18715f82d11d600c0d18820d0fc3b1220109c"
+        },
+        "tag": "sanger-wgs-variant-calling.v2.1.0-9.2.0"
+    },
+    "_wfpm_ver": "0.7.3",
+    "bugReport": "https://github.com/icgc-argo/sanger-wgs-variant-calling/issues",
+    "contributors": [
+        {
+            "name": "Junjun Zhang"
+        },
+        {
+            "name": "Linda Xiang"
+        }
+    ],
+    "dependencies": [
+        "github.com/icgc-argo/data-processing-utility-tools/payload-add-uniform-ids@0.1.1",
+        "github.com/icgc-argo/data-processing-utility-tools/helper-functions@1.0.0",
+        "github.com/icgc-argo/data-processing-utility-tools/cleanup-workdir@1.0.0"
+    ],
+    "deprecated": false,
+    "description": "ICGC ARGO Sanger WGS Variant Calling Workflow",
+    "devDependencies": [],
+    "homepage": "https://github.com/icgc-argo/sanger-wgs-variant-calling#readme",
+    "keywords": [
+        "bioinformatics",
+        "cancer genomics",
+        "variant calling",
+        "wgs"
+    ],
+    "license": "GNU Affero General Public License v3",
+    "main": "main.nf",
+    "name": "sanger-wgs-variant-calling",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/icgc-argo/sanger-wgs-variant-calling.git"
+    },
+    "version": "2.1.0-9.2.0"
+}

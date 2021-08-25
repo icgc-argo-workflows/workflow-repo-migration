@@ -1,0 +1,58 @@
+{
+    "_release": {
+        "assets": [
+            {
+                "checksum": "a1cc539d3ebd2ca2750e5d8e511ba5219ab7053247bcf2f416faed6b17037794",
+                "checksum_type": "sha256",
+                "download_url": "https://github.com/icgc-argo/open-access-variant-filtering/releases/download/open-access-variant-filtering-wf.v0.1.0/open-access-variant-filtering-wf.v0.1.0.tar.gz",
+                "filename": "open-access-variant-filtering-wf.v0.1.0.tar.gz",
+                "size": 2751807
+            },
+            {
+                "_NOTE_": "this file",
+                "checksum": null,
+                "checksum_type": null,
+                "download_url": "https://github.com/icgc-argo/open-access-variant-filtering/releases/download/open-access-variant-filtering-wf.v0.1.0/pkg-release.json",
+                "filename": "pkg-release.json",
+                "size": null
+            }
+        ],
+        "created": "2021-03-19T16:47:37Z",
+        "hash": {
+            "checksum_type": "sha1",
+            "checksume": "0f0e507c624dc86f016a1d2e567d70aba859c45f"
+        },
+        "tag": "open-access-variant-filtering-wf.v0.1.0"
+    },
+    "_wfpm_ver": "0.7.3",
+    "bugReport": "https://github.com/icgc-argo/open-access-variant-filtering/issues",
+    "contributors": [
+        {
+            "email": "linda.xiang@oicr.on.ca",
+            "name": "lindaxiang"
+        }
+    ],
+    "dependencies": [
+        "github.com/icgc-argo/data-processing-utility-tools/cleanup-workdir@1.0.0",
+        "github.com/icgc-argo/data-processing-utility-tools/helper-functions@1.0.0",
+        "github.com/icgc-argo/data-processing-utility-tools/payload-gen-variant-processing@0.1.0",
+        "github.com/icgc-argo/variant-calling-tools/variant-filter@0.1.0"
+    ],
+    "deprecated": false,
+    "description": "ICGC-ARGO Open-access Somatic Variant Filtering Workflow",
+    "devDependencies": [],
+    "homepage": "https://github.com/icgc-argo/open-access-variant-filtering#readme",
+    "keywords": [
+        "bioinformatics",
+        "vcf",
+        "filtering"
+    ],
+    "license": "GNU Affero General Public License v3",
+    "main": "main.nf",
+    "name": "open-access-variant-filtering-wf",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/icgc-argo/open-access-variant-filtering.git"
+    },
+    "version": "0.1.0"
+}

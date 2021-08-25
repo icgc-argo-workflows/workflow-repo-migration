@@ -1,0 +1,62 @@
+{
+    "_release": {
+        "assets": [
+            {
+                "checksum": "7c051eed4dc56b938bea4818e385833ac3d9e901430abe684316097c6754ddda",
+                "checksum_type": "sha256",
+                "download_url": "https://github.com/icgc-argo/sanger-wxs-variant-calling/releases/download/sanger-wxs-variant-calling.v3.1.6-3.5.0/sanger-wxs-variant-calling.v3.1.6-3.5.0.tar.gz",
+                "filename": "sanger-wxs-variant-calling.v3.1.6-3.5.0.tar.gz",
+                "size": 3294612
+            },
+            {
+                "_NOTE_": "this file",
+                "checksum": null,
+                "checksum_type": null,
+                "download_url": "https://github.com/icgc-argo/sanger-wxs-variant-calling/releases/download/sanger-wxs-variant-calling.v3.1.6-3.5.0/pkg-release.json",
+                "filename": "pkg-release.json",
+                "size": null
+            }
+        ],
+        "created": "2021-04-19T20:39:59Z",
+        "hash": {
+            "checksum_type": "sha1",
+            "checksume": "5b08d57f3baa14ea41fdc870565570cab35668ec"
+        },
+        "tag": "sanger-wxs-variant-calling.v3.1.6-3.5.0"
+    },
+    "_wfpm_ver": "0.7.7",
+    "bugReport": "https://github.com/icgc-argo/sanger-wxs-variant-calling/issues",
+    "contributors": [
+        {
+            "name": "Junjun Zhang"
+        },
+        {
+            "name": "Linda Xiang"
+        }
+    ],
+    "dependencies": [
+        "github.com/icgc-argo/data-processing-utility-tools/payload-gen-variant-calling@0.5.0",
+        "github.com/icgc-argo/data-processing-utility-tools/payload-add-uniform-ids@0.1.1",
+        "github.com/icgc-argo/data-processing-utility-tools/helper-functions@1.0.0",
+        "github.com/icgc-argo/data-processing-utility-tools/cleanup-workdir@1.0.0",
+        "github.com/icgc-argo/nextflow-data-processing-utility-tools/song-score-download@2.6.1",
+        "github.com/icgc-argo/nextflow-data-processing-utility-tools/song-score-upload@2.6.1"
+    ],
+    "deprecated": false,
+    "description": "ICGC ARGO Sanger WXS Variant Calling Workflow",
+    "devDependencies": [],
+    "homepage": "https://github.com/icgc-argo/sanger-wxs-variant-calling#readme",
+    "keywords": [
+        "bioinformatics",
+        "cancer genomics",
+        "variant calling"
+    ],
+    "license": "GNU Affero General Public License v3",
+    "main": "main.nf",
+    "name": "sanger-wxs-variant-calling",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/icgc-argo/sanger-wxs-variant-calling.git"
+    },
+    "version": "3.1.6-3.5.0"
+}

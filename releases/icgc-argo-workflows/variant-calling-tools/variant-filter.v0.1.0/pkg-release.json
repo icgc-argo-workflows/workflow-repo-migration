@@ -1,0 +1,69 @@
+{
+    "_release": {
+        "assets": [
+            {
+                "checksum": "ce816b95eeaca725d7896197baab1fe8c2034285d3a10121cf03a0f31e354cec",
+                "checksum_type": "sha256",
+                "download_url": "https://github.com/icgc-argo/variant-calling-tools/releases/download/variant-filter.v0.1.0/variant-filter.v0.1.0.tar.gz",
+                "filename": "variant-filter.v0.1.0.tar.gz",
+                "size": 2746541
+            },
+            {
+                "_NOTE_": "this file",
+                "checksum": null,
+                "checksum_type": null,
+                "download_url": "https://github.com/icgc-argo/variant-calling-tools/releases/download/variant-filter.v0.1.0/pkg-release.json",
+                "filename": "pkg-release.json",
+                "size": null
+            }
+        ],
+        "created": "2021-03-15T15:36:59Z",
+        "hash": {
+            "checksum_type": "sha1",
+            "checksume": "32f0aa27eb3befc3bb3bec9da28ca9b6e3d954a8"
+        },
+        "tag": "variant-filter.v0.1.0"
+    },
+    "_wfpm_ver": "0.7.3",
+    "bugReport": "https://github.com/icgc-argo/variant-calling-tools/issues",
+    "container": {
+        "_image_digest": {
+            "checksum": "b001e5d94d14d04b0675ee3c6d2565387ec457582caebd1c9d699b6daa723323",
+            "checksum_type": "sha256"
+        },
+        "registries": [
+            {
+                "default": true,
+                "org": "icgc-argo",
+                "registry": "ghcr.io",
+                "type": "docker"
+            }
+        ]
+    },
+    "contributors": [
+        {
+            "email": "linda.xiang@oicr.on.ca",
+            "name": "lindaxiang"
+        }
+    ],
+    "dependencies": [
+        "github.com/icgc-argo/data-processing-utility-tools/helper-functions@1.0.0"
+    ],
+    "deprecated": false,
+    "description": "Use bcftools to filter variants",
+    "devDependencies": [],
+    "homepage": "https://github.com/icgc-argo/variant-calling-tools#readme",
+    "keywords": [
+        "bioinformatics",
+        "vcf",
+        "filter"
+    ],
+    "license": "GNU Affero General Public License v3",
+    "main": "main.nf",
+    "name": "variant-filter",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/icgc-argo/variant-calling-tools.git"
+    },
+    "version": "0.1.0"
+}

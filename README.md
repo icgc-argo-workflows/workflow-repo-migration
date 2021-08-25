@@ -52,7 +52,7 @@ For each repository to be migrated, please follow these steps:
 
 | Original repo                         |   Original org        | Migration status |  New repo | New org |
 |---------------------------------------|-----------------------|------------------|-----------|----------|
-| [dna-seq-processing-wfs](https://github.com/icgc-argo/dna-seq-processing-wfs)  | icgc-argo  | To be done |   | icgc-argo-workflows |
+| [dna-seq-processing-wfs](https://github.com/icgc-argo/dna-seq-processing-wfs)  | icgc-argo  | completed | [dna-seq-processing-wfs](https://github.com/icgc-argo-workflows/dna-seq-processing-wfs)  | icgc-argo-workflows |
 | [nextflow-data-processing-utility-tools](https://github.com/icgc-argo/nextflow-data-processing-utility-tools) | icgc-argo | To be done|  | icgc-argo-workflows  |
 | [data-processing-utility-tools](https://github.com/icgc-argo/data-processing-utility-tools)  |  icgc-argo  | To be done |     | icgc-argo-workflows  |
 | [dna-seq-processing-tools](https://github.com/icgc-argo/dna-seq-processing-tools)  | icgc-argo  | To be done |    | icgc-argo-workflows |

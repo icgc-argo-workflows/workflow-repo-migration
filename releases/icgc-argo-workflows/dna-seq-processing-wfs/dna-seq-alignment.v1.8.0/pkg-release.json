@@ -1,0 +1,61 @@
+{
+    "_release": {
+        "assets": [
+            {
+                "checksum": "b3f1a76d5c037efb7ac061c7b051ca16b5364e51567de5539195406e86fdacdd",
+                "checksum_type": "sha256",
+                "download_url": "https://github.com/icgc-argo/dna-seq-processing-wfs/releases/download/dna-seq-alignment.v1.8.0/dna-seq-alignment.v1.8.0.tar.gz",
+                "filename": "dna-seq-alignment.v1.8.0.tar.gz",
+                "size": 3020711
+            },
+            {
+                "_NOTE_": "this file",
+                "checksum": null,
+                "checksum_type": null,
+                "download_url": "https://github.com/icgc-argo/dna-seq-processing-wfs/releases/download/dna-seq-alignment.v1.8.0/pkg-release.json",
+                "filename": "pkg-release.json",
+                "size": null
+            }
+        ],
+        "created": "2021-04-29T21:08:32Z",
+        "hash": {
+            "checksum_type": "sha1",
+            "checksume": "d2fb7aff0cc92d4606eefa0bd857fe170074d366"
+        },
+        "tag": "dna-seq-alignment.v1.8.0"
+    },
+    "_wfpm_ver": "0.7.7",
+    "bugReport": "https://github.com/icgc-argo/dna-seq-processing-wfs/issues",
+    "contributors": [
+        {
+            "name": "Junjun Zhang"
+        },
+        {
+            "name": "Linda Xiang"
+        }
+    ],
+    "dependencies": [
+        "github.com/icgc-argo/data-processing-utility-tools/payload-gen-seq-experiment@0.4.0",
+        "github.com/icgc-argo/data-processing-utility-tools/payload-gen-dna-alignment@0.4.0",
+        "github.com/icgc-argo/data-processing-utility-tools/payload-gen-dna-seq-qc@0.6.0",
+        "github.com/icgc-argo/nextflow-data-processing-utility-tools/song-score-download@2.6.2",
+        "github.com/icgc-argo/nextflow-data-processing-utility-tools/song-score-upload@2.6.1"
+    ],
+    "deprecated": false,
+    "description": "ICGC ARGO DNA Seq Processing Workflow",
+    "devDependencies": [],
+    "homepage": "https://github.com/icgc-argo/dna-seq-processing-wfs#readme",
+    "keywords": [
+        "bioinformatics",
+        "dna",
+        "alignment"
+    ],
+    "license": "GNU Affero General Public License v3",
+    "main": "main.nf",
+    "name": "dna-seq-alignment",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/icgc-argo/dna-seq-processing-wfs.git"
+    },
+    "version": "1.8.0"
+}

@@ -1,0 +1,57 @@
+{
+    "_release": {
+        "assets": [
+            {
+                "checksum": "2a5fa87fc86ba79f0398c7f1a718abf1dc6822207624c3f7623973a7b35d9eb8",
+                "checksum_type": "sha256",
+                "download_url": "https://github.com/icgc-argo/dna-seq-processing-wfs/releases/download/dna-seq-alignment.v1.6.1/dna-seq-alignment.v1.6.1.tar.gz",
+                "filename": "dna-seq-alignment.v1.6.1.tar.gz",
+                "size": 3024193
+            },
+            {
+                "_NOTE_": "this file",
+                "checksum": null,
+                "checksum_type": null,
+                "download_url": "https://github.com/icgc-argo/dna-seq-processing-wfs/releases/download/dna-seq-alignment.v1.6.1/pkg-release.json",
+                "filename": "pkg-release.json",
+                "size": null
+            }
+        ],
+        "created": "2021-03-10T18:44:28Z",
+        "hash": {
+            "checksum_type": "sha1",
+            "checksume": "b1cb82015be36a0bbfa61c22aced84c6625ea56f"
+        },
+        "tag": "dna-seq-alignment.v1.6.1"
+    },
+    "_wfpm_ver": "0.7.3",
+    "bugReport": "https://github.com/icgc-argo/dna-seq-processing-wfs/issues",
+    "contributors": [
+        {
+            "name": "Junjun Zhang"
+        },
+        {
+            "name": "Linda Xiang"
+        }
+    ],
+    "dependencies": [
+        "github.com/icgc-argo/data-processing-utility-tools/payload-gen-seq-experiment@0.4.0"
+    ],
+    "deprecated": false,
+    "description": "ICGC ARGO DNA Seq Processing Workflow",
+    "devDependencies": [],
+    "homepage": "https://github.com/icgc-argo/dna-seq-processing-wfs#readme",
+    "keywords": [
+        "bioinformatics",
+        "dna",
+        "alignment"
+    ],
+    "license": "GNU Affero General Public License v3",
+    "main": "main.nf",
+    "name": "dna-seq-alignment",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/icgc-argo/dna-seq-processing-wfs.git"
+    },
+    "version": "1.6.1"
+}

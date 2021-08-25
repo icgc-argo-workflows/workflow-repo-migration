@@ -1,0 +1,64 @@
+{
+    "_release": {
+        "assets": [
+            {
+                "checksum": "20a4c189997c8e93320f19f129571ed8d7d48b96ac24717edd247048c4168787",
+                "checksum_type": "sha256",
+                "download_url": "https://github.com/icgc-argo/dna-seq-processing-wfs/releases/download/dna-seq-alignment.v1.9.0/dna-seq-alignment.v1.9.0.tar.gz",
+                "filename": "dna-seq-alignment.v1.9.0.tar.gz",
+                "size": 3020379
+            },
+            {
+                "_NOTE_": "this file",
+                "checksum": null,
+                "checksum_type": null,
+                "download_url": "https://github.com/icgc-argo/dna-seq-processing-wfs/releases/download/dna-seq-alignment.v1.9.0/pkg-release.json",
+                "filename": "pkg-release.json",
+                "size": null
+            }
+        ],
+        "created": "2021-08-03T12:37:36Z",
+        "hash": {
+            "checksum_type": "sha1",
+            "checksume": "c08bf115c8468a5d4312f365fe3108116fc1cc53"
+        },
+        "tag": "dna-seq-alignment.v1.9.0"
+    },
+    "_wfpm_ver": "0.7.8",
+    "bugReport": "https://github.com/icgc-argo/dna-seq-processing-wfs/issues",
+    "contributors": [
+        {
+            "name": "Junjun Zhang"
+        },
+        {
+            "name": "Linda Xiang"
+        }
+    ],
+    "dependencies": [
+        "github.com/icgc-argo/dna-seq-processing-tools/bwa-mem-aligner@0.2.0",
+        "github.com/icgc-argo/dna-seq-processing-tools/bam-merge-sort-markdup@0.2.0",
+        "github.com/icgc-argo/data-processing-utility-tools/payload-gen-seq-experiment@0.5.0",
+        "github.com/icgc-argo/data-processing-utility-tools/payload-gen-dna-alignment@0.4.0",
+        "github.com/icgc-argo/data-processing-utility-tools/payload-gen-dna-seq-qc@0.6.0",
+        "github.com/icgc-argo/nextflow-data-processing-utility-tools/song-score-download@2.6.2",
+        "github.com/icgc-argo/nextflow-data-processing-utility-tools/song-score-upload@2.6.1",
+        "github.com/icgc-argo/data-processing-utility-tools/helper-functions@1.0.1"
+    ],
+    "deprecated": false,
+    "description": "ICGC ARGO DNA Seq Processing Workflow",
+    "devDependencies": [],
+    "homepage": "https://github.com/icgc-argo/dna-seq-processing-wfs#readme",
+    "keywords": [
+        "bioinformatics",
+        "dna",
+        "alignment"
+    ],
+    "license": "GNU Affero General Public License v3",
+    "main": "main.nf",
+    "name": "dna-seq-alignment",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/icgc-argo/dna-seq-processing-wfs.git"
+    },
+    "version": "1.9.0"
+}

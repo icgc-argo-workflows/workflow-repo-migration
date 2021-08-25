@@ -1,0 +1,70 @@
+{
+    "_release": {
+        "assets": [
+            {
+                "checksum": "72b524123cbec531d3afce3adada4c637f233ef9e8f1e76c189f54c6c4b304c3",
+                "checksum_type": "sha256",
+                "download_url": "https://github.com/ICGC-TCGA-PanCancer/demo-pkgs1/releases/download/demo-fastqc.v0.2.0/demo-fastqc.v0.2.0.tar.gz",
+                "filename": "demo-fastqc.v0.2.0.tar.gz",
+                "size": 170820
+            },
+            {
+                "_NOTE_": "this file",
+                "checksum": null,
+                "checksum_type": null,
+                "download_url": "https://github.com/ICGC-TCGA-PanCancer/demo-pkgs1/releases/download/demo-fastqc.v0.2.0/pkg-release.json",
+                "filename": "pkg-release.json",
+                "size": null
+            }
+        ],
+        "created": "2021-02-24T04:13:12Z",
+        "hash": {
+            "checksum_type": "sha1",
+            "checksume": "2aedab7c3ae948d218a03f3cdcbb5eabcb3abeda"
+        },
+        "tag": "demo-fastqc.v0.2.0"
+    },
+    "_wfpm_ver": "0.6.9",
+    "bugReport": "https://github.com/icgc-tcga-pancancer/demo-pkgs1/issues",
+    "container": {
+        "_image_digest": {
+            "checksum": "aad0e843f749241fe5073841c1afc9185a434b3e06da0d0499253e061f36045c",
+            "checksum_type": "sha256"
+        },
+        "registries": [
+            {
+                "default": true,
+                "org": "icgc-tcga-pancancer",
+                "registry": "ghcr.io",
+                "type": "docker"
+            }
+        ]
+    },
+    "contributors": [
+        {
+            "email": "junjun.ca@gmail.com",
+            "name": "Junjun Zhang"
+        }
+    ],
+    "dependencies": [],
+    "deprecated": false,
+    "description": "FastQC tool",
+    "devDependencies": [],
+    "homepage": "https://github.com/icgc-tcga-pancancer/demo-pkgs1#readme",
+    "keywords": [
+        "bioinformatics",
+        "seq",
+        "qc metrics"
+    ],
+    "license": "MIT",
+    "main": "demo-fastqc",
+    "name": "demo-fastqc",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/icgc-tcga-pancancer/demo-pkgs1.git"
+    },
+    "scripts": {
+        "test": "wfpm test"
+    },
+    "version": "0.2.0"
+}

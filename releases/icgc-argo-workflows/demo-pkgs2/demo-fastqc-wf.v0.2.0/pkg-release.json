@@ -1,0 +1,59 @@
+{
+    "_release": {
+        "assets": [
+            {
+                "checksum": "79fab325f75c2490f670332eda43f7a114805949d8381775c7b02a1bc259eb6d",
+                "checksum_type": "sha256",
+                "download_url": "https://github.com/ICGC-TCGA-PanCancer/demo-pkgs2/releases/download/demo-fastqc-wf.v0.2.0/demo-fastqc-wf.v0.2.0.tar.gz",
+                "filename": "demo-fastqc-wf.v0.2.0.tar.gz",
+                "size": 185448
+            },
+            {
+                "_NOTE_": "this file",
+                "checksum": null,
+                "checksum_type": null,
+                "download_url": "https://github.com/ICGC-TCGA-PanCancer/demo-pkgs2/releases/download/demo-fastqc-wf.v0.2.0/pkg-release.json",
+                "filename": "pkg-release.json",
+                "size": null
+            }
+        ],
+        "created": "2021-02-24T04:27:43Z",
+        "hash": {
+            "checksum_type": "sha1",
+            "checksume": "e5f56bd2e0ba2f7f3efe8d01c4a222bd91e8c41e"
+        },
+        "tag": "demo-fastqc-wf.v0.2.0"
+    },
+    "_wfpm_ver": "0.6.9",
+    "bugReport": "https://github.com/icgc-tcga-pancancer/demo-pkgs2/issues",
+    "contributors": [
+        {
+            "email": "junjun.ca@gmail.com",
+            "name": "Junjun Zhang"
+        }
+    ],
+    "dependencies": [
+        "github.com/icgc-argo/demo-wfpkgs/demo-utils@1.3.0",
+        "github.com/icgc-tcga-pancancer/demo-pkgs1/demo-fastqc@0.2.0"
+    ],
+    "deprecated": false,
+    "description": "FastQC workflow",
+    "devDependencies": [],
+    "homepage": "https://github.com/icgc-tcga-pancancer/demo-pkgs2#readme",
+    "keywords": [
+        "bioinformatics",
+        "seq",
+        "qc metrics"
+    ],
+    "license": "MIT",
+    "main": "demo-fastqc-wf",
+    "name": "demo-fastqc-wf",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/icgc-tcga-pancancer/demo-pkgs2.git"
+    },
+    "scripts": {
+        "test": "wfpm test"
+    },
+    "version": "0.2.0"
+}

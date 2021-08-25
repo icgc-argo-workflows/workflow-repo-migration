@@ -1,0 +1,59 @@
+{
+    "_release": {
+        "assets": [
+            {
+                "checksum": "14f71891548159e8815df688e3824fd86b3017078b34fe5dab0e893a2d99e38a",
+                "checksum_type": "sha256",
+                "download_url": "https://github.com/icgc-argo-workflows/demo-pkgs2/releases/download/demo-fastqc1-wf.v0.1.0.1/demo-fastqc1-wf.v0.1.0.1.tar.gz",
+                "filename": "demo-fastqc1-wf.v0.1.0.1.tar.gz",
+                "size": 170847
+            },
+            {
+                "_NOTE_": "this file",
+                "checksum": null,
+                "checksum_type": null,
+                "download_url": "https://github.com/icgc-argo-workflows/demo-pkgs2/releases/download/demo-fastqc1-wf.v0.1.0.1/pkg-release.json",
+                "filename": "pkg-release.json",
+                "size": null
+            }
+        ],
+        "created": "2021-08-25T01:45:10Z",
+        "hash": {
+            "checksum_type": "sha1",
+            "checksume": "8c814e06b60ce2616e8fd0347ebda488ba2adae7"
+        },
+        "tag": "demo-fastqc1-wf.v0.1.0.1"
+    },
+    "_wfpm_ver": "0.7.8",
+    "bugReport": "https://github.com/icgc-argo-workflows/demo-pkgs2/issues",
+    "contributors": [
+        {
+            "email": "junjun.ca@gmail.com",
+            "name": "Junjun Zhang"
+        }
+    ],
+    "dependencies": [
+        "github.com/icgc-argo/demo-wfpkgs/demo-utils@1.3.0",
+        "github.com/icgc-argo-workflows/demo-pkgs1/demo-fastqc1@0.1.0.1"
+    ],
+    "deprecated": false,
+    "description": "FastQC workflow",
+    "devDependencies": [],
+    "homepage": "https://github.com/icgc-argo-workflows/demo-pkgs2#readme",
+    "keywords": [
+        "bioinformatics",
+        "seq",
+        "qc metrics"
+    ],
+    "license": "MIT",
+    "main": "demo-fastqc1-wf",
+    "name": "demo-fastqc1-wf",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/icgc-argo-workflows/demo-pkgs2.git"
+    },
+    "scripts": {
+        "test": "wfpm test"
+    },
+    "version": "0.1.0.1"
+}

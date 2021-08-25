@@ -1,0 +1,59 @@
+{
+    "_release": {
+        "assets": [
+            {
+                "checksum": "9157f6a2a19c3d5ea3fc40eb9bbadd97a13049224fb77553e9fad55e59c0ae40",
+                "checksum_type": "sha256",
+                "download_url": "https://github.com/icgc-argo-workflows/demo-pkgs2/releases/download/demo-fastqc-wf.v0.2.0.1/demo-fastqc-wf.v0.2.0.1.tar.gz",
+                "filename": "demo-fastqc-wf.v0.2.0.1.tar.gz",
+                "size": 185483
+            },
+            {
+                "_NOTE_": "this file",
+                "checksum": null,
+                "checksum_type": null,
+                "download_url": "https://github.com/icgc-argo-workflows/demo-pkgs2/releases/download/demo-fastqc-wf.v0.2.0.1/pkg-release.json",
+                "filename": "pkg-release.json",
+                "size": null
+            }
+        ],
+        "created": "2021-07-23T18:36:51Z",
+        "hash": {
+            "checksum_type": "sha1",
+            "checksume": "6f7f245a768c8eb6e5e5fb587bfe917b8696246c"
+        },
+        "tag": "demo-fastqc-wf.v0.2.0.1"
+    },
+    "_wfpm_ver": "0.7.8",
+    "bugReport": "https://github.com/icgc-argo-workflows/demo-pkgs2/issues",
+    "contributors": [
+        {
+            "email": "junjun.ca@gmail.com",
+            "name": "Junjun Zhang"
+        }
+    ],
+    "dependencies": [
+        "github.com/icgc-argo/demo-wfpkgs/demo-utils@1.3.0",
+        "github.com/icgc-argo-workflows/demo-pkgs1/demo-fastqc@0.2.0.1"
+    ],
+    "deprecated": false,
+    "description": "FastQC workflow",
+    "devDependencies": [],
+    "homepage": "https://github.com/icgc-argo-workflows/demo-pkgs2#readme",
+    "keywords": [
+        "bioinformatics",
+        "seq",
+        "qc metrics"
+    ],
+    "license": "MIT",
+    "main": "demo-fastqc-wf",
+    "name": "demo-fastqc-wf",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/icgc-argo-workflows/demo-pkgs2.git"
+    },
+    "scripts": {
+        "test": "wfpm test"
+    },
+    "version": "0.2.0.1"
+}

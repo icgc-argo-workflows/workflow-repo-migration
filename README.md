@@ -53,11 +53,11 @@ For each repository to be migrated, please follow these steps:
 | Original repo                         |   Original org        | Migration status |  New repo | New org |
 |---------------------------------------|-----------------------|------------------|-----------|----------|
 | [dna-seq-processing-wfs](https://github.com/icgc-argo/dna-seq-processing-wfs)  | icgc-argo  | completed | [dna-seq-processing-wfs](https://github.com/icgc-argo-workflows/dna-seq-processing-wfs)  | icgc-argo-workflows |
-| [nextflow-data-processing-utility-tools](https://github.com/icgc-argo/nextflow-data-processing-utility-tools) | icgc-argo | To be done|  | icgc-argo-workflows  |
-| [data-processing-utility-tools](https://github.com/icgc-argo/data-processing-utility-tools)  |  icgc-argo  | To be done |     | icgc-argo-workflows  |
-| [dna-seq-processing-tools](https://github.com/icgc-argo/dna-seq-processing-tools)  | icgc-argo  | To be done |    | icgc-argo-workflows |
-| [data-qc-tools-and-wfs](https://github.com/icgc-argo/data-qc-tools-and-wfs)  | icgc-argo  | To be done |   | icgc-argo-workflows |
-| [gatk-tools](https://github.com/icgc-argo/gatk-tools)                        | icgc-argo  | To be done |   | icgc-argo-workflows |
+| [nextflow-data-processing-utility-tools](https://github.com/icgc-argo/nextflow-data-processing-utility-tools) | icgc-argo | completed | [nextflow-data-processing-utility-tools](https://github.com/icgc-argo-workflows/nextflow-data-processing-utility-tools) | icgc-argo-workflows  |
+| [data-processing-utility-tools](https://github.com/icgc-argo/data-processing-utility-tools)  |  icgc-argo  | completed |  [data-processing-utility-tools](https://github.com/icgc-argo-workflows/data-processing-utility-tools)   | icgc-argo-workflows  |
+| [dna-seq-processing-tools](https://github.com/icgc-argo/dna-seq-processing-tools)  | icgc-argo  | completed |  [dna-seq-processing-tools](https://github.com/icgc-argo-workflows/dna-seq-processing-tools)  | icgc-argo-workflows |
+| [data-qc-tools-and-wfs](https://github.com/icgc-argo/data-qc-tools-and-wfs)  | icgc-argo  | completed | [data-qc-tools-and-wfs](https://github.com/icgc-argo-workflows/data-qc-tools-and-wfs)  | icgc-argo-workflows |
+| [gatk-tools](https://github.com/icgc-argo/gatk-tools)                        | icgc-argo  | completed | [gatk-tools](https://github.com/icgc-argo-workflows/gatk-tools)  | icgc-argo-workflows |
 | [sanger-wgs-variant-calling](https://github.com/icgc-argo/sanger-wgs-variant-calling)                        | icgc-argo  | To be done |   | icgc-argo-workflows |
 | [sanger-wxs-variant-calling](https://github.com/icgc-argo/sanger-wxs-variant-calling)                        | icgc-argo  | To be done |   | icgc-argo-workflows |
 | [gatk-mutect2-variant-calling](https://github.com/icgc-argo/gatk-mutect2-variant-calling)                        | icgc-argo  | To be done |   | icgc-argo-workflows |

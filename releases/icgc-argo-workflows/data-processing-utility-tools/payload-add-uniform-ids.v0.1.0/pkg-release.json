@@ -1,0 +1,66 @@
+{
+    "_release": {
+        "assets": [
+            {
+                "checksum": "9cde7fdbd3910c8fb9ba21f8b4817cefd7dd8235752d94cc1356895dbce0d193",
+                "checksum_type": "sha256",
+                "download_url": "https://github.com/icgc-argo/data-processing-utility-tools/releases/download/payload-add-uniform-ids.v0.1.0/payload-add-uniform-ids.v0.1.0.tar.gz",
+                "filename": "payload-add-uniform-ids.v0.1.0.tar.gz",
+                "size": 5694
+            },
+            {
+                "_NOTE_": "this file",
+                "checksum": null,
+                "checksum_type": null,
+                "download_url": "https://github.com/icgc-argo/data-processing-utility-tools/releases/download/payload-add-uniform-ids.v0.1.0/pkg-release.json",
+                "filename": "pkg-release.json",
+                "size": null
+            }
+        ],
+        "created": "2021-03-15T21:24:09Z",
+        "hash": {
+            "checksum_type": "sha1",
+            "checksume": "e28cc3234234a61ac19127980266af9b34d985af"
+        },
+        "tag": "payload-add-uniform-ids.v0.1.0"
+    },
+    "_wfpm_ver": "0.7.3",
+    "bugReport": "https://github.com/icgc-argo/data-processing-utility-tools/issues",
+    "container": {
+        "_image_digest": {
+            "checksum": "3be2a8e6315446527c67ded06c8e08bef1882b94a38c2e229fe8b9a8ffe45f58",
+            "checksum_type": "sha256"
+        },
+        "registries": [
+            {
+                "default": true,
+                "org": "icgc-argo",
+                "registry": "ghcr.io",
+                "type": "docker"
+            }
+        ]
+    },
+    "contributors": [
+        {
+            "email": "junjun.ca@gmail.com",
+            "name": "Junjun Zhang"
+        }
+    ],
+    "dependencies": [],
+    "deprecated": false,
+    "description": "SONG payload utility tool for adding uniform IDs",
+    "devDependencies": [],
+    "homepage": "https://github.com/icgc-argo/data-processing-utility-tools#readme",
+    "keywords": [
+        "bioinformatics",
+        "metadata"
+    ],
+    "license": "GNU Affero General Public License v3",
+    "main": "main.nf",
+    "name": "payload-add-uniform-ids",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/icgc-argo/data-processing-utility-tools.git"
+    },
+    "version": "0.1.0"
+}

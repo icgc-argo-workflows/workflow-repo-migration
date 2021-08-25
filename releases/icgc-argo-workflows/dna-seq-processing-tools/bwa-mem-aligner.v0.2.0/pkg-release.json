@@ -1,0 +1,70 @@
+{
+    "_release": {
+        "assets": [
+            {
+                "checksum": "fe16647bcb3ea14438f8d5fea1cb6c1eace948d161475858df7461695c4e9c54",
+                "checksum_type": "sha256",
+                "download_url": "https://github.com/icgc-argo/dna-seq-processing-tools/releases/download/bwa-mem-aligner.v0.2.0/bwa-mem-aligner.v0.2.0.tar.gz",
+                "filename": "bwa-mem-aligner.v0.2.0.tar.gz",
+                "size": 688295
+            },
+            {
+                "_NOTE_": "this file",
+                "checksum": null,
+                "checksum_type": null,
+                "download_url": "https://github.com/icgc-argo/dna-seq-processing-tools/releases/download/bwa-mem-aligner.v0.2.0/pkg-release.json",
+                "filename": "pkg-release.json",
+                "size": null
+            }
+        ],
+        "created": "2021-07-23T17:09:38Z",
+        "hash": {
+            "checksum_type": "sha1",
+            "checksume": "ab6282bc77db2e293dc870d7c5f422ece888ff0d"
+        },
+        "tag": "bwa-mem-aligner.v0.2.0"
+    },
+    "_wfpm_ver": "0.7.8",
+    "bugReport": "https://github.com/icgc-argo/dna-seq-processing-tools/issues",
+    "container": {
+        "_image_digest": {
+            "checksum": "61d440b694dce494275af6554ec37b5d64ccfe275046d360a2329aca266cb865",
+            "checksum_type": "sha256"
+        },
+        "registries": [
+            {
+                "default": true,
+                "org": "icgc-argo",
+                "registry": "ghcr.io",
+                "type": "docker"
+            }
+        ]
+    },
+    "contributors": [
+        {
+            "name": "Junjun Zhang"
+        },
+        {
+            "name": "Linda Xiang"
+        }
+    ],
+    "dependencies": [
+        "github.com/icgc-argo/data-processing-utility-tools/helper-functions@1.0.1"
+    ],
+    "deprecated": false,
+    "description": "Take lane-level unaligned BAM as input to align it using BWA MEM",
+    "devDependencies": [],
+    "homepage": "https://github.com/icgc-argo/dna-seq-processing-tools#readme",
+    "keywords": [
+        "seq",
+        "aligner"
+    ],
+    "license": "GNU Affero General Public License v3",
+    "main": "main.nf",
+    "name": "bwa-mem-aligner",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/icgc-argo/dna-seq-processing-tools.git"
+    },
+    "version": "0.2.0"
+}

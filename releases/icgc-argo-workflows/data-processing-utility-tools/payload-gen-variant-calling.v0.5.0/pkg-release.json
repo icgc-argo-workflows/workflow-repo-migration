@@ -1,0 +1,66 @@
+{
+    "_release": {
+        "assets": [
+            {
+                "checksum": "65e1e589a175e6c9edda3398f3101e00f622a8d267924cbd9bc0e96eeff9f3e3",
+                "checksum_type": "sha256",
+                "download_url": "https://github.com/icgc-argo/data-processing-utility-tools/releases/download/payload-gen-variant-calling.v0.5.0/payload-gen-variant-calling.v0.5.0.tar.gz",
+                "filename": "payload-gen-variant-calling.v0.5.0.tar.gz",
+                "size": 3988254
+            },
+            {
+                "_NOTE_": "this file",
+                "checksum": null,
+                "checksum_type": null,
+                "download_url": "https://github.com/icgc-argo/data-processing-utility-tools/releases/download/payload-gen-variant-calling.v0.5.0/pkg-release.json",
+                "filename": "pkg-release.json",
+                "size": null
+            }
+        ],
+        "created": "2021-04-19T16:39:32Z",
+        "hash": {
+            "checksum_type": "sha1",
+            "checksume": "ac22a9f43eeb8f4b1c1c5cdf156f3584c71af443"
+        },
+        "tag": "payload-gen-variant-calling.v0.5.0"
+    },
+    "_wfpm_ver": "0.7.7",
+    "bugReport": "https://github.com/icgc-argo/data-processing-utility-tools/issues",
+    "container": {
+        "_image_digest": {
+            "checksum": "6eaa30b59ff7873c66227442518d987117e8cef1f1b9a8d484a9a08cdaa2c34e",
+            "checksum_type": "sha256"
+        },
+        "registries": [
+            {
+                "default": true,
+                "org": "icgc-argo",
+                "registry": "ghcr.io",
+                "type": "docker"
+            }
+        ]
+    },
+    "contributors": [
+        {
+            "name": "Junjun Zhang"
+        }
+    ],
+    "dependencies": [],
+    "deprecated": false,
+    "description": "A tool to generate SONG payloads for variant calling workflows",
+    "devDependencies": [],
+    "homepage": "https://github.com/icgc-argo/data-processing-utility-tools#readme",
+    "keywords": [
+        "bioinformatics",
+        "metadata",
+        "payload"
+    ],
+    "license": "GNU Affero General Public License v3",
+    "main": "main.nf",
+    "name": "payload-gen-variant-calling",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/icgc-argo/data-processing-utility-tools.git"
+    },
+    "version": "0.5.0"
+}

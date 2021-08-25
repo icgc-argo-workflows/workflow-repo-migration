@@ -1,0 +1,68 @@
+{
+    "_release": {
+        "assets": [
+            {
+                "checksum": "d8b833816a8697029ef35cea0201ddfac7fdf84952dada8a81d80ad6e917802e",
+                "checksum_type": "sha256",
+                "download_url": "https://github.com/icgc-argo/data-processing-utility-tools/releases/download/helper-functions.v1.0.0/helper-functions.v1.0.0.tar.gz",
+                "filename": "helper-functions.v1.0.0.tar.gz",
+                "size": 3436
+            },
+            {
+                "_NOTE_": "this file",
+                "checksum": null,
+                "checksum_type": null,
+                "download_url": "https://github.com/icgc-argo/data-processing-utility-tools/releases/download/helper-functions.v1.0.0/pkg-release.json",
+                "filename": "pkg-release.json",
+                "size": null
+            }
+        ],
+        "created": "2021-03-12T16:55:37Z",
+        "hash": {
+            "checksum_type": "sha1",
+            "checksume": "5c2054e3cdbedff7901ccbcf3ba8d2b06e39a917"
+        },
+        "tag": "helper-functions.v1.0.0"
+    },
+    "_wfpm_ver": "0.7.3",
+    "bugReport": "https://github.com/icgc-argo/data-processing-utility-tools/issues",
+    "container": {
+        "_image_digest": {
+            "checksum": "c884d671b3092c02555905b11e19a063db67938b81b0bd2c848fe02f3f4d6862",
+            "checksum_type": "sha256"
+        },
+        "registries": [
+            {
+                "default": true,
+                "org": "icgc-argo",
+                "registry": "ghcr.io",
+                "type": "docker"
+            }
+        ]
+    },
+    "contributors": [
+        {
+            "email": "junjun.ca@gmail.com",
+            "name": "Junjun Zhang"
+        }
+    ],
+    "dependencies": [],
+    "deprecated": false,
+    "description": "A collection of helper functions",
+    "devDependencies": [],
+    "homepage": "https://github.com/icgc-argo/data-processing-utility-tools#readme",
+    "keywords": [
+        "bioinformatics",
+        "utils",
+        "function",
+        "secondary file"
+    ],
+    "license": "GNU Affero General Public License v3",
+    "main": "main.nf",
+    "name": "helper-functions",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/icgc-argo/data-processing-utility-tools.git"
+    },
+    "version": "1.0.0"
+}

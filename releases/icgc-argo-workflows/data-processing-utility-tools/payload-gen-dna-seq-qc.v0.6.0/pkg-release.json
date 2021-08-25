@@ -1,0 +1,70 @@
+{
+    "_release": {
+        "assets": [
+            {
+                "checksum": "4c6f3e67b56c19e7386bf6b8bd8c419a3ab64702e0e5119cc6b165f842a4852f",
+                "checksum_type": "sha256",
+                "download_url": "https://github.com/icgc-argo/data-processing-utility-tools/releases/download/payload-gen-dna-seq-qc.v0.6.0/payload-gen-dna-seq-qc.v0.6.0.tar.gz",
+                "filename": "payload-gen-dna-seq-qc.v0.6.0.tar.gz",
+                "size": 42135
+            },
+            {
+                "_NOTE_": "this file",
+                "checksum": null,
+                "checksum_type": null,
+                "download_url": "https://github.com/icgc-argo/data-processing-utility-tools/releases/download/payload-gen-dna-seq-qc.v0.6.0/pkg-release.json",
+                "filename": "pkg-release.json",
+                "size": null
+            }
+        ],
+        "created": "2021-04-29T15:00:44Z",
+        "hash": {
+            "checksum_type": "sha1",
+            "checksume": "1db3d58e91655c130ffe320d1ce75eb81c8884d5"
+        },
+        "tag": "payload-gen-dna-seq-qc.v0.6.0"
+    },
+    "_wfpm_ver": "0.7.7",
+    "bugReport": "https://github.com/icgc-argo/data-processing-utility-tools/issues",
+    "container": {
+        "_image_digest": {
+            "checksum": "536fcc600599c36cdcfe009b20496173d23f3eff344ab8fbc75a0dbdcae6112c",
+            "checksum_type": "sha256"
+        },
+        "registries": [
+            {
+                "default": true,
+                "org": "icgc-argo",
+                "registry": "ghcr.io",
+                "type": "docker"
+            }
+        ]
+    },
+    "contributors": [
+        {
+            "name": "Junjun Zhang"
+        },
+        {
+            "name": "Linda Xiang"
+        }
+    ],
+    "dependencies": [],
+    "deprecated": false,
+    "description": "SONG payload generation tool for aligned seq QC",
+    "devDependencies": [],
+    "homepage": "https://github.com/icgc-argo/data-processing-utility-tools#readme",
+    "keywords": [
+        "bioinformatics",
+        "dna-seq",
+        "qc metrics",
+        "metadata"
+    ],
+    "license": "GNU Affero General Public License v3",
+    "main": "main.nf",
+    "name": "payload-gen-dna-seq-qc",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/icgc-argo/data-processing-utility-tools.git"
+    },
+    "version": "0.6.0"
+}

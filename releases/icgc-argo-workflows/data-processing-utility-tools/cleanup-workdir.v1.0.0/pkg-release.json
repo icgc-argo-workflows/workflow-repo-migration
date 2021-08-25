@@ -1,0 +1,67 @@
+{
+    "_release": {
+        "assets": [
+            {
+                "checksum": "667d8c403d514230bd6b806dc175673153d82f5081e8e8b0229add814fb2d21e",
+                "checksum_type": "sha256",
+                "download_url": "https://github.com/icgc-argo/data-processing-utility-tools/releases/download/cleanup-workdir.v1.0.0/cleanup-workdir.v1.0.0.tar.gz",
+                "filename": "cleanup-workdir.v1.0.0.tar.gz",
+                "size": 3886
+            },
+            {
+                "_NOTE_": "this file",
+                "checksum": null,
+                "checksum_type": null,
+                "download_url": "https://github.com/icgc-argo/data-processing-utility-tools/releases/download/cleanup-workdir.v1.0.0/pkg-release.json",
+                "filename": "pkg-release.json",
+                "size": null
+            }
+        ],
+        "created": "2021-03-12T16:54:41Z",
+        "hash": {
+            "checksum_type": "sha1",
+            "checksume": "b89995ee35f2ee6def495ee662e48029850c23fc"
+        },
+        "tag": "cleanup-workdir.v1.0.0"
+    },
+    "_wfpm_ver": "0.7.3",
+    "bugReport": "https://github.com/icgc-argo/data-processing-utility-tools/issues",
+    "container": {
+        "_image_digest": {
+            "checksum": "c575e25ffb9206e0eff16fcc3a9a89d8c421775354147036c1cfa4bf2427145e",
+            "checksum_type": "sha256"
+        },
+        "registries": [
+            {
+                "default": true,
+                "org": "icgc-argo",
+                "registry": "ghcr.io",
+                "type": "docker"
+            }
+        ]
+    },
+    "contributors": [
+        {
+            "email": "junjun.ca@gmail.com",
+            "name": "Junjun Zhang"
+        }
+    ],
+    "dependencies": [],
+    "deprecated": false,
+    "description": "Process to cleanup workdir intermediate files",
+    "devDependencies": [],
+    "homepage": "https://github.com/icgc-argo/data-processing-utility-tools#readme",
+    "keywords": [
+        "workflow",
+        "utility",
+        "temp file"
+    ],
+    "license": "GNU Affero General Public License v3",
+    "main": "main.nf",
+    "name": "cleanup-workdir",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/icgc-argo/data-processing-utility-tools.git"
+    },
+    "version": "1.0.0"
+}

@@ -1,0 +1,67 @@
+{
+    "_release": {
+        "assets": [
+            {
+                "checksum": "3cd0f2fcd9f01740ce4ccf2dc9942b225bfc87c154ac83db9802b1a8d246b84d",
+                "checksum_type": "sha256",
+                "download_url": "https://github.com/icgc-argo/data-processing-utility-tools/releases/download/payload-gen-variant-processing.v0.1.0/payload-gen-variant-processing.v0.1.0.tar.gz",
+                "filename": "payload-gen-variant-processing.v0.1.0.tar.gz",
+                "size": 47136
+            },
+            {
+                "_NOTE_": "this file",
+                "checksum": null,
+                "checksum_type": null,
+                "download_url": "https://github.com/icgc-argo/data-processing-utility-tools/releases/download/payload-gen-variant-processing.v0.1.0/pkg-release.json",
+                "filename": "pkg-release.json",
+                "size": null
+            }
+        ],
+        "created": "2021-03-18T16:09:58Z",
+        "hash": {
+            "checksum_type": "sha1",
+            "checksume": "0ec367276c0083c4c4a76a3e415645ce2c6d981c"
+        },
+        "tag": "payload-gen-variant-processing.v0.1.0"
+    },
+    "_wfpm_ver": "0.7.3",
+    "bugReport": "https://github.com/icgc-argo/data-processing-utility-tools/issues",
+    "container": {
+        "_image_digest": {
+            "checksum": "d23c25429041ff504d011a8fdc18ab0bb60ad7d13ec29e0262cb5b250914ea2b",
+            "checksum_type": "sha256"
+        },
+        "registries": [
+            {
+                "default": true,
+                "org": "icgc-argo",
+                "registry": "ghcr.io",
+                "type": "docker"
+            }
+        ]
+    },
+    "contributors": [
+        {
+            "email": "linda.xiang@oicr.on.ca",
+            "name": "Linda Xiang"
+        }
+    ],
+    "dependencies": [],
+    "deprecated": false,
+    "description": "Tool to generate song payload for analysisType of variant_processing",
+    "devDependencies": [],
+    "homepage": "https://github.com/icgc-argo/data-processing-utility-tools#readme",
+    "keywords": [
+        "bioinformatics",
+        "payload",
+        "variant"
+    ],
+    "license": "GNU Affero General Public License v3",
+    "main": "main.nf",
+    "name": "payload-gen-variant-processing",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/icgc-argo/data-processing-utility-tools.git"
+    },
+    "version": "0.1.0"
+}

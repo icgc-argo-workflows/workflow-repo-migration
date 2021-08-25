@@ -1,0 +1,66 @@
+{
+    "_release": {
+        "assets": [
+            {
+                "checksum": "a87c28f6bd125c5034d374fcfe29875ce0885a2b0c82729a209f10f4ef53b985",
+                "checksum_type": "sha256",
+                "download_url": "https://github.com/icgc-argo/data-processing-utility-tools/releases/download/payload-gen-seq-experiment.v0.3.0/payload-gen-seq-experiment.v0.3.0.tar.gz",
+                "filename": "payload-gen-seq-experiment.v0.3.0.tar.gz",
+                "size": 175745
+            },
+            {
+                "_NOTE_": "this file",
+                "checksum": null,
+                "checksum_type": null,
+                "download_url": "https://github.com/icgc-argo/data-processing-utility-tools/releases/download/payload-gen-seq-experiment.v0.3.0/pkg-release.json",
+                "filename": "pkg-release.json",
+                "size": null
+            }
+        ],
+        "created": "2021-03-08T22:58:22Z",
+        "hash": {
+            "checksum_type": "sha1",
+            "checksume": "84796703c193c019dc7500d51b4f056a8c6e7ac4"
+        },
+        "tag": "payload-gen-seq-experiment.v0.3.0"
+    },
+    "_wfpm_ver": "0.7.2",
+    "bugReport": "https://github.com/icgc-argo/data-processing-utility-tools/issues",
+    "container": {
+        "_image_digest": {
+            "checksum": "6fcd18ce3c66079311e141916858e014af3abfea91c877b8663ac4d7b3b73dbd",
+            "checksum_type": "sha256"
+        },
+        "registries": [
+            {
+                "default": true,
+                "org": "icgc-argo",
+                "registry": "ghcr.io",
+                "type": "docker"
+            }
+        ]
+    },
+    "contributors": [
+        {
+            "email": "junjun.ca@gmail.com",
+            "name": "Junjun Zhang"
+        }
+    ],
+    "dependencies": [],
+    "deprecated": false,
+    "description": "SONG payload generation for sequencing experiment",
+    "devDependencies": [],
+    "homepage": "https://github.com/icgc-argo/data-processing-utility-tools#readme",
+    "keywords": [
+        "bioinformatics",
+        "metadata"
+    ],
+    "license": "GNU Affero General Public License v3",
+    "main": "main.nf",
+    "name": "payload-gen-seq-experiment",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/icgc-argo/data-processing-utility-tools.git"
+    },
+    "version": "0.3.0"
+}

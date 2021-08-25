@@ -1,0 +1,72 @@
+{
+    "_release": {
+        "assets": [
+            {
+                "checksum": "3ded53d2bb52a9ceaea628d9f8f9fd022e3102a3f885993d8d77aac7103c78c2",
+                "checksum_type": "sha256",
+                "download_url": "https://github.com/icgc-argo/dna-seq-processing-tools/releases/download/bam-merge-sort-markdup.v0.2.0/bam-merge-sort-markdup.v0.2.0.tar.gz",
+                "filename": "bam-merge-sort-markdup.v0.2.0.tar.gz",
+                "size": 697324
+            },
+            {
+                "_NOTE_": "this file",
+                "checksum": null,
+                "checksum_type": null,
+                "download_url": "https://github.com/icgc-argo/dna-seq-processing-tools/releases/download/bam-merge-sort-markdup.v0.2.0/pkg-release.json",
+                "filename": "pkg-release.json",
+                "size": null
+            }
+        ],
+        "created": "2021-07-23T17:13:06Z",
+        "hash": {
+            "checksum_type": "sha1",
+            "checksume": "96698e925737105ce4031ca778587ef5c4e66989"
+        },
+        "tag": "bam-merge-sort-markdup.v0.2.0"
+    },
+    "_wfpm_ver": "0.7.8",
+    "bugReport": "https://github.com/icgc-argo/dna-seq-processing-tools/issues",
+    "container": {
+        "_image_digest": {
+            "checksum": "f99fd1d68f46558a1763328cf3508e3d0f9a40207e2ef627863fa7dc27adf684",
+            "checksum_type": "sha256"
+        },
+        "registries": [
+            {
+                "default": true,
+                "org": "icgc-argo",
+                "registry": "ghcr.io",
+                "type": "docker"
+            }
+        ]
+    },
+    "contributors": [
+        {
+            "name": "Junjun Zhang"
+        },
+        {
+            "name": "Linda Xiang"
+        }
+    ],
+    "dependencies": [
+        "github.com/icgc-argo/data-processing-utility-tools/helper-functions@1.0.1"
+    ],
+    "deprecated": false,
+    "description": "Merge multiple lane-level aligned BAMs, Mark duplicated reads and Sort reads by genomic coordinates",
+    "devDependencies": [],
+    "homepage": "https://github.com/icgc-argo/dna-seq-processing-tools#readme",
+    "keywords": [
+        "seq",
+        "merge",
+        "markduplicate",
+        "sort"
+    ],
+    "license": "GNU Affero General Public License v3",
+    "main": "main.nf",
+    "name": "bam-merge-sort-markdup",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/icgc-argo/dna-seq-processing-tools.git"
+    },
+    "version": "0.2.0"
+}

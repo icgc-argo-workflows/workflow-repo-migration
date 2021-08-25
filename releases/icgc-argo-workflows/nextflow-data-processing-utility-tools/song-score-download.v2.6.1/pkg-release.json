@@ -1,0 +1,56 @@
+{
+    "_release": {
+        "assets": [
+            {
+                "checksum": "7b9917e745a6c06f441d5873c140c12b1e25895d82204c260939d05d460d406d",
+                "checksum_type": "sha256",
+                "download_url": "https://github.com/icgc-argo/nextflow-data-processing-utility-tools/releases/download/song-score-download.v2.6.1/song-score-download.v2.6.1.tar.gz",
+                "filename": "song-score-download.v2.6.1.tar.gz",
+                "size": 3073
+            },
+            {
+                "_NOTE_": "this file",
+                "checksum": null,
+                "checksum_type": null,
+                "download_url": "https://github.com/icgc-argo/nextflow-data-processing-utility-tools/releases/download/song-score-download.v2.6.1/pkg-release.json",
+                "filename": "pkg-release.json",
+                "size": null
+            }
+        ],
+        "created": "2021-04-06T01:59:32Z",
+        "hash": {
+            "checksum_type": "sha1",
+            "checksume": "d3b6a84540767d4396d843646a7771ccb39b0a49"
+        },
+        "tag": "song-score-download.v2.6.1"
+    },
+    "_wfpm_ver": "0.7.6",
+    "bugReport": "https://github.com/icgc-argo/nextflow-data-processing-utility-tools/issues",
+    "contributors": [
+        {
+            "name": "Alex Lepsa"
+        },
+        {
+            "name": "Junjun Zhang"
+        }
+    ],
+    "dependencies": [],
+    "deprecated": false,
+    "description": "SONG/SCORE download",
+    "devDependencies": [],
+    "homepage": "https://github.com/icgc-argo/nextflow-data-processing-utility-tools#readme",
+    "keywords": [
+        "bioinformatics",
+        "data",
+        "metadata",
+        "download"
+    ],
+    "license": "Apache License 2.0",
+    "main": "main.nf",
+    "name": "song-score-download",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/icgc-argo/nextflow-data-processing-utility-tools.git"
+    },
+    "version": "2.6.1"
+}

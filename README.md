@@ -34,6 +34,7 @@ to process production data must be reproducible, even after the source code repo
 ## Repository migration standard operating procedure (SOP)
 
 For each repository to be migrated, please follow these steps:
+0. Make sure to complete and release all currently in-development packages
 1. Transfer the ownership of the repository from the original organization to the new organization (https://github.com/icgc-argo-workflows)
 2. Fork the same repo from the new organization back to the original organization
 3. Since forking at step 2 does not create releases, run the `release-duplicator.py` script to create all releases for

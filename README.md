@@ -33,6 +33,9 @@ to process production data must be reproducible, even after the source code repo
 
 ## Repository migration standard operating procedure (SOP)
 
+**Prerequisite**: the user executing the SOP needs to be owner of both source and target
+GitHub organizations in order to initial repository transfer.
+
 For each repository to be migrated, please follow these steps:
 
 0. Make sure to complete and release all currently in-development packages
@@ -50,6 +53,40 @@ For each repository to be migrated, please follow these steps:
 6. Continue to maintain all existing docker images registered under either the original GitHub organization or under quay.io.
 
 
+## One-time update before continue the development under the new GitHub organization
+
+For each repository after migrated to under the new GitHub organization, please follow
+these steps to complete a one-time update before normal WFPM package development process:
+
+0. Make a fresh clone of the repository
+1. On the main branch, edit configuration file, package metadata file, source code
+scripts of all packages from old GitHub organization to the new organization. Here
+is an example commit update the organization for two packages under the repository
+`icgc-argo-workflows/demo-pkgs1`: https://github.com/icgc-argo-workflows/demo-pkgs1/commit/5d012d691a154f9b55281e178ea4cc29e5ee1b87. Example files to be updated:
+```
+.wfpm: WFPM project config file
+nextflow.config: Nextflow config file
+<package-a>/pkg.json: Package A metadata JSON file
+<package-a>/main.nf: Package A entry point script
+<package-a>/tests/checker.nf: Packge A test launcher script
+<package-b>/pkg.json: Package B metadata JSON file
+<package-b>/main.nf: Package B entry point script
+<package-b>/tests/checker.nf: Packge B test launcher script
+```
+2. For each package, create a new version under the new organization:
+ * assume the package name is `pkg-a` and the latest version is `1.2.3`, start a new
+   version using `wfpm nextver pkg-a@1.2.3 1.2.3.1`. This will create a new branch
+   `pkg-a@1.2.3.1` and make it the current branch.
+ * then merge the update from main branch `git merge main`
+ * continue as usual with: git push, create PR and merge PR. Do NOT release the
+   package when merge the PR
+3. repeat **step 2** until all WFPM packages in the repository are covered
+4. switch to the main branch and run `git pull` to sync with the remote
+5. run WFPM release command to release each of the new package version, eg,
+   `wfpm release pkg-a@1.2.3.1` to release version `1.2.3.1` of `pkg-a`
+6. repeat **step 5** until all new versions of all packages are released
+
+
 ## Workflow source repositories to be migrated
 
 | Original repo                         |   Original org        | Migration status |  New repo | New org |
@@ -65,4 +102,6 @@ For each repository to be migrated, please follow these steps:
 | [gatk-mutect2-variant-calling](https://github.com/icgc-argo/gatk-mutect2-variant-calling)                        | icgc-argo  | completed | [gatk-mutect2-variant-calling](https://github.com/icgc-argo-workflows/gatk-mutect2-variant-calling)  | icgc-argo-workflows |
 | [variant-calling-tools](https://github.com/icgc-argo/variant-calling-tools)                        | icgc-argo  | completed | [variant-calling-tools](https://github.com/icgc-argo-workflows/variant-calling-tools)  | icgc-argo-workflows |
 | [open-access-variant-filtering](https://github.com/icgc-argo/open-access-variant-filtering)                        | icgc-argo  | completed | [open-access-variant-filtering](https://github.com/icgc-argo-workflows/open-access-variant-filtering)  | icgc-argo-workflows |
+| [icgc-argo-sv-copy-number](https://github.com/ICGC-ARGO-Structural-Variation-CN-WG/icgc-argo-sv-copy-number) | ICGC-ARGO-Structural-Variation-CN-WG  | to be completed |   | icgc-argo-workflows |
+| [argo-qc-tools](https://github.com/icgc-argo-qc-wg/argo-qc-tools) | icgc-argo-qc-wg  | to be completed |   | icgc-argo-workflows |
 

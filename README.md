@@ -63,16 +63,14 @@ these steps to complete a one-time update before normal WFPM package development
 scripts of all packages from old GitHub organization to the new organization. Here
 is an example commit update the organization for two packages under the repository
 `icgc-argo-workflows/demo-pkgs1`: https://github.com/icgc-argo-workflows/demo-pkgs1/commit/5d012d691a154f9b55281e178ea4cc29e5ee1b87. Example files to be updated:
-```
-.wfpm: WFPM project config file
-nextflow.config: Nextflow config file
-<package-a>/pkg.json: Package A metadata JSON file
-<package-a>/main.nf: Package A entry point script
-<package-a>/tests/checker.nf: Packge A test launcher script
-<package-b>/pkg.json: Package B metadata JSON file
-<package-b>/main.nf: Package B entry point script
-<package-b>/tests/checker.nf: Packge B test launcher script
-```
+  * `.wfpm`: WFPM project config file
+  * `nextflow.config`: Nextflow config file
+  * `<package-a>/pkg.json`: Package A metadata JSON file
+  * `<package-a>/main.nf`: Package A entry point script
+  * `<package-a>/tests/checker.nf`: Packge A test launcher script
+  * `<package-b>/pkg.json`: Package B metadata JSON file
+  * `<package-b>/main.nf`: Package B entry point script
+  * `<package-b>/tests/checker.nf`: Packge B test launcher script
 2. For each package, create a new version under the new organization:
  * assume the package name is `pkg-a` and the latest version is `1.2.3`, start a new
    version using `wfpm nextver pkg-a@1.2.3 1.2.3.1`. This will create a new branch

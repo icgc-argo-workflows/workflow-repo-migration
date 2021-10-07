@@ -84,7 +84,8 @@ is an example commit update the organization for two packages under the reposito
    `pkg-a@1.2.3.1` and make it the current branch.
  * then merge the update from main branch `git merge main`
  * continue as usual with: git push, create PR and merge PR. Do NOT release the
-   package when merge the PR
+   package when merge the PR (note that after merged to main, GitHub actions tests are
+   expected to fail, which is why we can't release yet)
 4. repeat **step 3** until all WFPM packages in the repository are covered
 5. switch to the main branch and run `git pull` to sync with the remote
 6. run WFPM release command to release each of the new package version, eg,

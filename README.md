@@ -41,16 +41,20 @@ For each repository to be migrated, please follow these steps:
 0. Make sure to complete and release all currently in-development packages
 1. Transfer the ownership of the repository from the original organization to the new organization (https://github.com/icgc-argo-workflows)
 2. Fork the same repo from the new organization back to the original organization
-3. Since forking at step 2 does not create releases, run the `release-duplicator.py` script to create all releases for
-   the forked repo at the original organization so that the releases are the same as what in the repo under the new organization
-4. In the forked repo under the original organization, add archive note in README.md and commit. Archive note may look like:
+3. Fork might take some time although it looks completed quickly, pause for ~30 minutes
+   before continuing
+4. Since forking at step 2 does not create releases, run the `release-duplicator.py` script to create all releases for
+   the forked repo at the original organization so that the releases are the same as what in the repo under the new organization. If you get error creating a release, you
+   will need to delete the fork and start over from step 2 and pause longer at step 3.
+5. Run `git add .` and `git commit` to backup releases and associated assets.
+6. In the forked repo under the original organization, add archive note in README.md and commit. Archive note may look like:
    ```
    NOTE: this repository is archived to support workflow reproducibility. Active development
    continues at: <url to the new repo>
    ```
-5. Archive the forked repo under the original organization, the archived repo must be maintained for as long as
+7. Archive the forked repo under the original organization, the archived repo must be maintained for as long as
    needed to maintain reproducibility of workflow versions ran in ARGO production.
-6. Continue to maintain all existing docker images registered under either the original GitHub organization or under quay.io.
+8. Continue to maintain all existing docker images registered under either the original GitHub organization or under quay.io.
 
 
 ## One-time update before continue the development under the new GitHub organization

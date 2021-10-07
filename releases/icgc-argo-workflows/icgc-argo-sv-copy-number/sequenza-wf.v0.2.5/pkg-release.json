@@ -1,0 +1,59 @@
+{
+    "_release": {
+        "assets": [
+            {
+                "checksum": "39103cc0475dcea258cb283cae61c105ccf7e6784a9c7c7f83e1032e3b88b002",
+                "checksum_type": "sha256",
+                "download_url": "https://github.com/ICGC-ARGO-Structural-Variation-CN-WG/icgc-argo-sv-copy-number/releases/download/sequenza-wf.v0.2.5/sequenza-wf.v0.2.5.tar.gz",
+                "filename": "sequenza-wf.v0.2.5.tar.gz",
+                "size": 3019618
+            },
+            {
+                "_NOTE_": "this file",
+                "checksum": null,
+                "checksum_type": null,
+                "download_url": "https://github.com/ICGC-ARGO-Structural-Variation-CN-WG/icgc-argo-sv-copy-number/releases/download/sequenza-wf.v0.2.5/pkg-release.json",
+                "filename": "pkg-release.json",
+                "size": null
+            }
+        ],
+        "created": "2021-10-06T19:13:28Z",
+        "hash": {
+            "checksum_type": "sha1",
+            "checksume": "1d42ffbcd49e54d86069111b4513fcf146cb296b"
+        },
+        "tag": "sequenza-wf.v0.2.5"
+    },
+    "_wfpm_ver": "0.7.11",
+    "bugReport": "https://github.com/icgc-argo-structural-variation-cn-wg/icgc-argo-sv-copy-number/issues",
+    "contributors": [
+        {
+            "email": "desiree.schnidrig@gmail.com",
+            "name": "lDesiree"
+        }
+    ],
+    "dependencies": [
+        "github.com/icgc-argo-structural-variation-cn-wg/icgc-argo-sv-copy-number/seqz-preprocess@0.2.5",
+        "github.com/icgc-argo-structural-variation-cn-wg/icgc-argo-sv-copy-number/seqz-main@0.2.5"
+    ],
+    "deprecated": false,
+    "description": "sequenza workflow",
+    "devDependencies": [],
+    "homepage": "https://github.com/icgc-argo-structural-variation-cn-wg/icgc-argo-sv-copy-number#readme",
+    "keywords": [
+        "copy number",
+        "sequenza",
+        "ascn",
+        "cn",
+        "purity",
+        "ploidy"
+    ],
+    "license": "MIT",
+    "main": "main.nf",
+    "name": "sequenza-wf",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/icgc-argo-structural-variation-cn-wg/icgc-argo-sv-copy-number.git"
+    },
+    "version": "0.2.5"
+}

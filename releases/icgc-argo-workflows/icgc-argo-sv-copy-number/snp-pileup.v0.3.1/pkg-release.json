@@ -1,0 +1,68 @@
+{
+    "_release": {
+        "assets": [
+            {
+                "checksum": "33ef260bafea56ab475a026334b8a58519fa93141a25634ec8a7cbe3e862d3e6",
+                "checksum_type": "sha256",
+                "download_url": "https://github.com/ICGC-ARGO-Structural-Variation-CN-WG/icgc-argo-sv-copy-number/releases/download/snp-pileup.v0.3.1/snp-pileup.v0.3.1.tar.gz",
+                "filename": "snp-pileup.v0.3.1.tar.gz",
+                "size": 163227
+            },
+            {
+                "_NOTE_": "this file",
+                "checksum": null,
+                "checksum_type": null,
+                "download_url": "https://github.com/ICGC-ARGO-Structural-Variation-CN-WG/icgc-argo-sv-copy-number/releases/download/snp-pileup.v0.3.1/pkg-release.json",
+                "filename": "pkg-release.json",
+                "size": null
+            }
+        ],
+        "created": "2021-09-24T13:59:05Z",
+        "hash": {
+            "checksum_type": "sha1",
+            "checksume": "469037c4661c798fb60ed2ded7c1e60e280e5593"
+        },
+        "tag": "snp-pileup.v0.3.1"
+    },
+    "_wfpm_ver": "0.7.11",
+    "bugReport": "https://github.com/icgc-argo-structural-variation-cn-wg/icgc-argo-sv-copy-number/issues",
+    "container": {
+        "_image_digest": {
+            "checksum": "a3c1fb790a314c46900972cfaa45e59883035a1905d16998c959dec827056dfc",
+            "checksum_type": "sha256"
+        },
+        "registries": [
+            {
+                "default": true,
+                "org": "icgc-argo-structural-variation-cn-wg",
+                "registry": "ghcr.io",
+                "type": "docker"
+            }
+        ]
+    },
+    "contributors": [
+        {
+            "email": "abenjak@gmail.com",
+            "name": "Andrej Benjak"
+        }
+    ],
+    "dependencies": [
+        "github.com/icgc-argo/data-processing-utility-tools/helper-functions@1.0.1"
+    ],
+    "deprecated": false,
+    "description": "snp-pileup (for facets)",
+    "devDependencies": [],
+    "homepage": "https://github.com/icgc-argo-structural-variation-cn-wg/icgc-argo-sv-copy-number#readme",
+    "keywords": [
+        "bioinformatics",
+        "cna"
+    ],
+    "license": "MIT",
+    "main": "main.nf",
+    "name": "snp-pileup",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/icgc-argo-structural-variation-cn-wg/icgc-argo-sv-copy-number.git"
+    },
+    "version": "0.3.1"
+}

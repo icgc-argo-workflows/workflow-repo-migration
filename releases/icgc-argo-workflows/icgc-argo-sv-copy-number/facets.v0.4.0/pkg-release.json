@@ -1,0 +1,70 @@
+{
+    "_release": {
+        "assets": [
+            {
+                "checksum": "3c13e8bd3cb42d7eea3c094a4c1a4f91ec1b7129ff931a7962946a7bf68dda4c",
+                "checksum_type": "sha256",
+                "download_url": "https://github.com/ICGC-ARGO-Structural-Variation-CN-WG/icgc-argo-sv-copy-number/releases/download/facets.v0.4.0/facets.v0.4.0.tar.gz",
+                "filename": "facets.v0.4.0.tar.gz",
+                "size": 236800
+            },
+            {
+                "_NOTE_": "this file",
+                "checksum": null,
+                "checksum_type": null,
+                "download_url": "https://github.com/ICGC-ARGO-Structural-Variation-CN-WG/icgc-argo-sv-copy-number/releases/download/facets.v0.4.0/pkg-release.json",
+                "filename": "pkg-release.json",
+                "size": null
+            }
+        ],
+        "created": "2021-10-05T17:19:24Z",
+        "hash": {
+            "checksum_type": "sha1",
+            "checksume": "e9835fadda9f33d9a7a774509f692254e0105dbf"
+        },
+        "tag": "facets.v0.4.0"
+    },
+    "_wfpm_ver": "0.7.11",
+    "bugReport": "https://github.com/icgc-argo-structural-variation-cn-wg/icgc-argo-sv-copy-number/issues",
+    "container": {
+        "_image_digest": {
+            "checksum": "9427e5f425bbfa1387f992db8910eb84fe1a158cd7358e90b10f22bb7c084b8b",
+            "checksum_type": "sha256"
+        },
+        "registries": [
+            {
+                "default": true,
+                "org": "icgc-argo-structural-variation-cn-wg",
+                "registry": "ghcr.io",
+                "type": "docker"
+            }
+        ]
+    },
+    "contributors": [
+        {
+            "email": "abenjak@gmail.com",
+            "name": "Andrej Benjak"
+        }
+    ],
+    "dependencies": [],
+    "deprecated": false,
+    "description": "facets tool",
+    "devDependencies": [],
+    "homepage": "https://github.com/icgc-argo-structural-variation-cn-wg/icgc-argo-sv-copy-number#readme",
+    "keywords": [
+        "facets",
+        "cnv",
+        "cna",
+        "copy number",
+        "purity",
+        "ploidy"
+    ],
+    "license": "MIT",
+    "main": "main.nf",
+    "name": "facets",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/icgc-argo-structural-variation-cn-wg/icgc-argo-sv-copy-number.git"
+    },
+    "version": "0.4.0"
+}

@@ -1,0 +1,67 @@
+{
+    "_release": {
+        "assets": [
+            {
+                "checksum": "d0977bf7655639d4903f1fe3e7d64456ab0e80574a678d2d2e5672ceacb03afa",
+                "checksum_type": "sha256",
+                "download_url": "https://github.com/ICGC-ARGO-Structural-Variation-CN-WG/icgc-argo-sv-copy-number/releases/download/argo-sv-cnv-calling.v0.1.0/argo-sv-cnv-calling.v0.1.0.tar.gz",
+                "filename": "argo-sv-cnv-calling.v0.1.0.tar.gz",
+                "size": 47158607
+            },
+            {
+                "_NOTE_": "this file",
+                "checksum": null,
+                "checksum_type": null,
+                "download_url": "https://github.com/ICGC-ARGO-Structural-Variation-CN-WG/icgc-argo-sv-copy-number/releases/download/argo-sv-cnv-calling.v0.1.0/pkg-release.json",
+                "filename": "pkg-release.json",
+                "size": null
+            }
+        ],
+        "created": "2021-10-06T18:14:29Z",
+        "hash": {
+            "checksum_type": "sha1",
+            "checksume": "e57eae4f5ba90dfe6175d824d56a9f9695eb9bba"
+        },
+        "tag": "argo-sv-cnv-calling.v0.1.0"
+    },
+    "_wfpm_ver": "0.7.11",
+    "bugReport": "https://github.com/icgc-argo-structural-variation-cn-wg/icgc-argo-sv-copy-number/issues",
+    "contributors": [
+        {
+            "email": "junjun.ca@gmail.com",
+            "name": "Junjun Zhang"
+        }
+    ],
+    "dependencies": [
+        "github.com/icgc-argo-workflows/data-processing-utility-tools/helper-functions@1.0.1.1",
+        "github.com/icgc-argo-workflows/dna-seq-processing-tools/cram2bam@0.1.0",
+        "github.com/icgc-argo/nextflow-data-processing-utility-tools/song-score-download@2.6.2",
+        "github.com/icgc-argo-structural-variation-cn-wg/icgc-argo-sv-copy-number/manta@0.2.0",
+        "github.com/icgc-argo-structural-variation-cn-wg/icgc-argo-sv-copy-number/snp-pileup@0.3.1",
+        "github.com/icgc-argo-structural-variation-cn-wg/icgc-argo-sv-copy-number/battenberg@0.1.0",
+        "github.com/icgc-argo-structural-variation-cn-wg/icgc-argo-sv-copy-number/facets@0.3.0",
+        "github.com/icgc-argo-structural-variation-cn-wg/icgc-argo-sv-copy-number/seqz-main@0.2.5",
+        "github.com/icgc-argo-structural-variation-cn-wg/icgc-argo-sv-copy-number/seqz-preprocess@0.2.5",
+        "github.com/icgc-argo-structural-variation-cn-wg/icgc-argo-sv-copy-number/svaba@0.2.0"
+    ],
+    "deprecated": false,
+    "description": "ARGO structure and copy number variation calling workflow",
+    "devDependencies": [],
+    "homepage": "https://github.com/icgc-argo-structural-variation-cn-wg/icgc-argo-sv-copy-number#readme",
+    "keywords": [
+        "bioinformatics",
+        "ngs",
+        "variation calling",
+        "sv",
+        "cnv",
+        "cancer genomics"
+    ],
+    "license": "MIT",
+    "main": "main.nf",
+    "name": "argo-sv-cnv-calling",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/icgc-argo-structural-variation-cn-wg/icgc-argo-sv-copy-number.git"
+    },
+    "version": "0.1.0"
+}

@@ -1,0 +1,56 @@
+{
+    "_release": {
+        "assets": [
+            {
+                "checksum": "163a8aa4064594c09a1232596883ce70048d0e5e2f273f7ea19d8bc672ec2fa8",
+                "checksum_type": "sha256",
+                "download_url": "https://github.com/ICGC-ARGO-Structural-Variation-CN-WG/icgc-argo-sv-copy-number/releases/download/facets-wf.v0.2.0/facets-wf.v0.2.0.tar.gz",
+                "filename": "facets-wf.v0.2.0.tar.gz",
+                "size": 333415
+            },
+            {
+                "_NOTE_": "this file",
+                "checksum": null,
+                "checksum_type": null,
+                "download_url": "https://github.com/ICGC-ARGO-Structural-Variation-CN-WG/icgc-argo-sv-copy-number/releases/download/facets-wf.v0.2.0/pkg-release.json",
+                "filename": "pkg-release.json",
+                "size": null
+            }
+        ],
+        "created": "2021-10-06T16:57:54Z",
+        "hash": {
+            "checksum_type": "sha1",
+            "checksume": "1885417b3b4acd6859a529db95c5961cce32d6de"
+        },
+        "tag": "facets-wf.v0.2.0"
+    },
+    "_wfpm_ver": "0.7.11",
+    "bugReport": "https://github.com/icgc-argo-structural-variation-cn-wg/icgc-argo-sv-copy-number/issues",
+    "contributors": [
+        {
+            "email": "abenjak@gmail.com",
+            "name": "Andrej Benjak"
+        }
+    ],
+    "dependencies": [
+        "github.com/icgc-argo-structural-variation-cn-wg/icgc-argo-sv-copy-number/snp-pileup@0.3.1",
+        "github.com/icgc-argo-structural-variation-cn-wg/icgc-argo-sv-copy-number/facets@0.4.1"
+    ],
+    "deprecated": false,
+    "description": "facets workflow",
+    "devDependencies": [],
+    "homepage": "https://github.com/icgc-argo-structural-variation-cn-wg/icgc-argo-sv-copy-number#readme",
+    "keywords": [
+        "cna",
+        "purity",
+        "ploidy"
+    ],
+    "license": "MIT",
+    "main": "main.nf",
+    "name": "facets-wf",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/icgc-argo-structural-variation-cn-wg/icgc-argo-sv-copy-number.git"
+    },
+    "version": "0.2.0"
+}

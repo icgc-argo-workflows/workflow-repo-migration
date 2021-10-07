@@ -1,0 +1,69 @@
+{
+    "_release": {
+        "assets": [
+            {
+                "checksum": "4b8928901a69ae3275bc09ea2575755dac7ae3b979111bf8bcf266854644b727",
+                "checksum_type": "sha256",
+                "download_url": "https://github.com/ICGC-ARGO-Structural-Variation-CN-WG/icgc-argo-sv-copy-number/releases/download/manta.v0.2.0/manta.v0.2.0.tar.gz",
+                "filename": "manta.v0.2.0.tar.gz",
+                "size": 23653085
+            },
+            {
+                "_NOTE_": "this file",
+                "checksum": null,
+                "checksum_type": null,
+                "download_url": "https://github.com/ICGC-ARGO-Structural-Variation-CN-WG/icgc-argo-sv-copy-number/releases/download/manta.v0.2.0/pkg-release.json",
+                "filename": "pkg-release.json",
+                "size": null
+            }
+        ],
+        "created": "2021-09-29T21:16:38Z",
+        "hash": {
+            "checksum_type": "sha1",
+            "checksume": "56f1aba7df1948db0baea988b7efebeaf49d5cd8"
+        },
+        "tag": "manta.v0.2.0"
+    },
+    "_wfpm_ver": "0.7.11",
+    "bugReport": "https://github.com/icgc-argo-structural-variation-cn-wg/icgc-argo-sv-copy-number/issues",
+    "container": {
+        "_image_digest": {
+            "checksum": "cd4a0b06e3bd29e22f2ef2f740369208693314f5616302f09028a400caec0c9d",
+            "checksum_type": "sha256"
+        },
+        "registries": [
+            {
+                "default": true,
+                "org": "icgc-argo-structural-variation-cn-wg",
+                "registry": "ghcr.io",
+                "type": "docker"
+            }
+        ]
+    },
+    "contributors": [
+        {
+            "email": "alvaro.ferriz@hotmail.com",
+            "name": "Alvaro Ferriz"
+        }
+    ],
+    "dependencies": [
+        "github.com/icgc-argo-workflows/data-processing-utility-tools/helper-functions@1.0.1.1"
+    ],
+    "deprecated": false,
+    "description": "Manta",
+    "devDependencies": [],
+    "homepage": "https://github.com/icgc-argo-structural-variation-cn-wg/icgc-argo-sv-copy-number#readme",
+    "keywords": [
+        "bioinformatics",
+        "seq",
+        "qc metrics"
+    ],
+    "license": "MIT",
+    "main": "main.nf",
+    "name": "manta",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/icgc-argo-structural-variation-cn-wg/icgc-argo-sv-copy-number.git"
+    },
+    "version": "0.2.0"
+}

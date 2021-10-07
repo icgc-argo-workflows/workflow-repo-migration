@@ -1,0 +1,67 @@
+{
+    "_release": {
+        "assets": [
+            {
+                "checksum": "6c474cc2a7783fbe931c8970ace17f1e02edb90bfc1e2a9de89a879305f4aa37",
+                "checksum_type": "sha256",
+                "download_url": "https://github.com/ICGC-ARGO-Structural-Variation-CN-WG/icgc-argo-sv-copy-number/releases/download/seqz-main.v0.2.5/seqz-main.v0.2.5.tar.gz",
+                "filename": "seqz-main.v0.2.5.tar.gz",
+                "size": 950272
+            },
+            {
+                "_NOTE_": "this file",
+                "checksum": null,
+                "checksum_type": null,
+                "download_url": "https://github.com/ICGC-ARGO-Structural-Variation-CN-WG/icgc-argo-sv-copy-number/releases/download/seqz-main.v0.2.5/pkg-release.json",
+                "filename": "pkg-release.json",
+                "size": null
+            }
+        ],
+        "created": "2021-09-24T14:29:27Z",
+        "hash": {
+            "checksum_type": "sha1",
+            "checksume": "31c78547c38f4327eef74c022510a43adaa6572b"
+        },
+        "tag": "seqz-main.v0.2.5"
+    },
+    "_wfpm_ver": "0.7.11",
+    "bugReport": "https://github.com/icgc-argo-structural-variation-cn-wg/icgc-argo-sv-copy-number/issues",
+    "container": {
+        "_image_digest": {
+            "checksum": "6853780f48f8623a88d8b9e14bb52b5f1b7f87ddd9b7e496728767ea86292d40",
+            "checksum_type": "sha256"
+        },
+        "registries": [
+            {
+                "default": true,
+                "org": "icgc-argo-structural-variation-cn-wg",
+                "registry": "ghcr.io",
+                "type": "docker"
+            }
+        ]
+    },
+    "contributors": [
+        {
+            "email": "desiree.schnidrig@gmail.com",
+            "name": "lDesiree"
+        }
+    ],
+    "dependencies": [],
+    "deprecated": false,
+    "description": "run sequenza (the input for this package - *.seqz.gz - can be generated with the seqz-preprocess package)",
+    "devDependencies": [],
+    "homepage": "https://github.com/icgc-argo-structural-variation-cn-wg/icgc-argo-sv-copy-number#readme",
+    "keywords": [
+        "bioinformatics",
+        "seq",
+        "qc metrics"
+    ],
+    "license": "MIT",
+    "main": "main.nf",
+    "name": "seqz-main",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/icgc-argo-structural-variation-cn-wg/icgc-argo-sv-copy-number.git"
+    },
+    "version": "0.2.5"
+}

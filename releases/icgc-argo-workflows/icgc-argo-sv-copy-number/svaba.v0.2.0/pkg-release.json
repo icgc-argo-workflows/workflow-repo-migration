@@ -1,0 +1,68 @@
+{
+    "_release": {
+        "assets": [
+            {
+                "checksum": "e5d1cc91fed2647db6cc01871615c7288aa9f5042134a2eb98c79a79b056e1ca",
+                "checksum_type": "sha256",
+                "download_url": "https://github.com/ICGC-ARGO-Structural-Variation-CN-WG/icgc-argo-sv-copy-number/releases/download/svaba.v0.2.0/svaba.v0.2.0.tar.gz",
+                "filename": "svaba.v0.2.0.tar.gz",
+                "size": 93028462
+            },
+            {
+                "_NOTE_": "this file",
+                "checksum": null,
+                "checksum_type": null,
+                "download_url": "https://github.com/ICGC-ARGO-Structural-Variation-CN-WG/icgc-argo-sv-copy-number/releases/download/svaba.v0.2.0/pkg-release.json",
+                "filename": "pkg-release.json",
+                "size": null
+            }
+        ],
+        "created": "2021-09-30T16:49:43Z",
+        "hash": {
+            "checksum_type": "sha1",
+            "checksume": "f69f876a19cf7a4944c16493d11a11bd5ec2c099"
+        },
+        "tag": "svaba.v0.2.0"
+    },
+    "_wfpm_ver": "0.7.11",
+    "bugReport": "https://github.com/icgc-argo-structural-variation-cn-wg/icgc-argo-sv-copy-number/issues",
+    "container": {
+        "_image_digest": {
+            "checksum": "a55672b1bddb7a6e54bb8fac84c8798987ba2089e6c9150ce224bc2896ce5aa6",
+            "checksum_type": "sha256"
+        },
+        "registries": [
+            {
+                "default": true,
+                "org": "icgc-argo-structural-variation-cn-wg",
+                "registry": "ghcr.io",
+                "type": "docker"
+            }
+        ]
+    },
+    "contributors": [
+        {
+            "email": "alvinwtng@gmail.com",
+            "name": "alvinwt"
+        }
+    ],
+    "dependencies": [
+        "github.com/icgc-argo-workflows/data-processing-utility-tools/helper-functions@1.0.1.1"
+    ],
+    "deprecated": false,
+    "description": "svaba tool",
+    "devDependencies": [],
+    "homepage": "https://github.com/icgc-argo-structural-variation-cn-wg/icgc-argo-sv-copy-number#readme",
+    "keywords": [
+        "svaba",
+        "structural variant caller"
+    ],
+    "license": "MIT",
+    "main": "main.nf",
+    "name": "svaba",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/icgc-argo-structural-variation-cn-wg/icgc-argo-sv-copy-number.git"
+    },
+    "version": "0.2.0"
+}

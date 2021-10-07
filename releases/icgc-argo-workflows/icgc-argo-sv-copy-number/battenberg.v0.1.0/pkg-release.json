@@ -1,0 +1,66 @@
+{
+    "_release": {
+        "assets": [
+            {
+                "checksum": "b025853faa7c2f6fc04c1b2f679a6e52e83e77f7ad0e1a42266286fa8a2c1f73",
+                "checksum_type": "sha256",
+                "download_url": "https://github.com/ICGC-ARGO-Structural-Variation-CN-WG/icgc-argo-sv-copy-number/releases/download/battenberg.v0.1.0/battenberg.v0.1.0.tar.gz",
+                "filename": "battenberg.v0.1.0.tar.gz",
+                "size": 292254634
+            },
+            {
+                "_NOTE_": "this file",
+                "checksum": null,
+                "checksum_type": null,
+                "download_url": "https://github.com/ICGC-ARGO-Structural-Variation-CN-WG/icgc-argo-sv-copy-number/releases/download/battenberg.v0.1.0/pkg-release.json",
+                "filename": "pkg-release.json",
+                "size": null
+            }
+        ],
+        "created": "2021-09-24T16:12:03Z",
+        "hash": {
+            "checksum_type": "sha1",
+            "checksume": "29dceffa98f94f026a087aecb3894b18e2e38bbb"
+        },
+        "tag": "battenberg.v0.1.0"
+    },
+    "_wfpm_ver": "0.7.11",
+    "bugReport": "https://github.com/icgc-argo-structural-variation-cn-wg/icgc-argo-sv-copy-number/issues",
+    "container": {
+        "_image_digest": {
+            "checksum": "7c033c2c3c9a0bfe7031e172c388af21e36724fe1fca76744d5a29d82335d169",
+            "checksum_type": "sha256"
+        },
+        "registries": [
+            {
+                "default": true,
+                "org": "icgc-argo-structural-variation-cn-wg",
+                "registry": "ghcr.io",
+                "type": "docker"
+            }
+        ]
+    },
+    "contributors": [
+        {
+            "email": "kate.eason@cruk.cam.ac.uk",
+            "name": "Kate Eason"
+        }
+    ],
+    "dependencies": [],
+    "deprecated": false,
+    "description": "Battenberg subclonal CN profiling",
+    "devDependencies": [],
+    "homepage": "https://github.com/icgc-argo-structural-variation-cn-wg/icgc-argo-sv-copy-number#readme",
+    "keywords": [
+        "bioinformatics",
+        "copy number"
+    ],
+    "license": "MIT",
+    "main": "main.nf",
+    "name": "battenberg",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/icgc-argo-structural-variation-cn-wg/icgc-argo-sv-copy-number.git"
+    },
+    "version": "0.1.0"
+}

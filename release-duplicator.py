@@ -4,6 +4,7 @@ import os
 import re
 import sys
 import json
+import time
 import argparse
 import requests
 
@@ -176,9 +177,15 @@ def main():
             f"No release found for https://github.com/{args.source_org}/{args.repo}")
         sys.exit()
 
+    pause_interval = 10
     for release in reversed(releases):
         create_release(release, args.repo, args.forked_org,
                        github_pat, backup_dir)
+        print(f"Pause {pause_interval} seconds ...")
+        time.sleep(pause_interval)
+
+    print(f"Release creation completed. Please run `git add {backup_dir}`, "
+          "commit and push to archive release metadata and associated assets.")
 
 
 if __name__ == "__main__":

@@ -78,7 +78,7 @@ is an example commit update the organization for two packages under the reposito
   * `<package-b>/main.nf`: Package B entry point script (only for tool package)
   * `<package-b>/tests/checker.nf`: Packge B test launcher script (only for tool package)
 2. Once step 1 is done, create a PR against main. PR review and marge as usual
-3. For each package, create a new version under the new organization:
+3. For each package (start with packages without dependencies first), create a new version under the new organization:
  * assume the package name is `pkg-a` and the latest version is `1.2.3`, start a new
    version using `wfpm nextver pkg-a@1.2.3 1.2.3.1`. This will create a new branch
    `pkg-a@1.2.3.1` and make it the current branch.

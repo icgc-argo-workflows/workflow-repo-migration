@@ -97,9 +97,10 @@ def create_release(source_release, repo, org, github_pat, backup_dir):
         if re.match(r'^v.+', pkg_ver):
             pkg_ver = pkg_ver.replace('v', '', 1)
 
-        # URI: github.com/icgc-argo/icgc-25k-azure-transfer/score-data-transfer@0.4.0
-        additional_release_note = f"* Package URI: `github.com/{org.lower()}/{repo}/{pkg_name}@{pkg_ver}`"
-        release_body = f"{release_body}\n{additional_release_note}"
+        if not re.match(r'\* Package URI: ', release_body):  # add only when needed
+            # URI: github.com/icgc-argo/icgc-25k-azure-transfer/score-data-transfer@0.4.0
+            additional_release_note = f"* Package URI: `github.com/{org.lower()}/{repo}/{pkg_name}@{pkg_ver}`"
+            release_body = f"{release_body}\n{additional_release_note}"
 
         # download assets
         for asset in assets:

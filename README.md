@@ -63,30 +63,33 @@ For each repository after migrated to under the new GitHub organization, please 
 these steps to complete a one-time update before normal WFPM package development process:
 
 0. Make a fresh clone of the repository
-1. On the main branch, edit configuration file, package metadata file, source code
+1. Create a new tracking branch based off main, then edit configuration file, package metadata file, source code
 scripts of all packages from old GitHub organization to the new organization. Here
 is an example commit update the organization for two packages under the repository
 `icgc-argo-workflows/demo-pkgs1`: https://github.com/icgc-argo-workflows/demo-pkgs1/commit/5d012d691a154f9b55281e178ea4cc29e5ee1b87. Example files to be updated:
   * `.wfpm`: WFPM project config file
   * `nextflow.config`: Nextflow config file
+  * `<package-a>/Dockerfile`: Package A Dockerfile (only for tool package)
   * `<package-a>/pkg.json`: Package A metadata JSON file
-  * `<package-a>/main.nf`: Package A entry point script
-  * `<package-a>/tests/checker.nf`: Packge A test launcher script
+  * `<package-a>/main.nf`: Package A entry point script (only for tool package)
+  * `<package-a>/tests/checker.nf`: Packge A test launcher script (only for tool package)
+  * `<package-b>/Dockerfile`: Package B Dockerfile (only for tool package)
   * `<package-b>/pkg.json`: Package B metadata JSON file
-  * `<package-b>/main.nf`: Package B entry point script
-  * `<package-b>/tests/checker.nf`: Packge B test launcher script
-2. For each package, create a new version under the new organization:
+  * `<package-b>/main.nf`: Package B entry point script (only for tool package)
+  * `<package-b>/tests/checker.nf`: Packge B test launcher script (only for tool package)
+2. Once step 1 is done, create a PR against main. PR review and marge as usual
+3. For each package, create a new version under the new organization:
  * assume the package name is `pkg-a` and the latest version is `1.2.3`, start a new
    version using `wfpm nextver pkg-a@1.2.3 1.2.3.1`. This will create a new branch
    `pkg-a@1.2.3.1` and make it the current branch.
  * then merge the update from main branch `git merge main`
  * continue as usual with: git push, create PR and merge PR. Do NOT release the
    package when merge the PR
-3. repeat **step 2** until all WFPM packages in the repository are covered
-4. switch to the main branch and run `git pull` to sync with the remote
-5. run WFPM release command to release each of the new package version, eg,
+4. repeat **step 3** until all WFPM packages in the repository are covered
+5. switch to the main branch and run `git pull` to sync with the remote
+6. run WFPM release command to release each of the new package version, eg,
    `wfpm release pkg-a@1.2.3.1` to release version `1.2.3.1` of `pkg-a`
-6. repeat **step 5** until all new versions of all packages are released
+7. repeat **step 6** until all new versions of all packages are released
 
 
 ## Workflow source repositories to be migrated

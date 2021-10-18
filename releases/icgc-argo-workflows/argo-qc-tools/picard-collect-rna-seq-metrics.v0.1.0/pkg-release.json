@@ -1,0 +1,66 @@
+{
+    "_release": {
+        "assets": [
+            {
+                "checksum": "494cad3172642feb6df81079ec9ece92125beece5c33ff304e71d8416c5b215b",
+                "checksum_type": "sha256",
+                "download_url": "https://github.com/icgc-argo-qc-wg/argo-qc-tools/releases/download/picard-collect-rna-seq-metrics.v0.1.0/picard-collect-rna-seq-metrics.v0.1.0.tar.gz",
+                "filename": "picard-collect-rna-seq-metrics.v0.1.0.tar.gz",
+                "size": 8193047
+            },
+            {
+                "_NOTE_": "this file",
+                "checksum": null,
+                "checksum_type": null,
+                "download_url": "https://github.com/icgc-argo-qc-wg/argo-qc-tools/releases/download/picard-collect-rna-seq-metrics.v0.1.0/pkg-release.json",
+                "filename": "pkg-release.json",
+                "size": null
+            }
+        ],
+        "created": "2021-09-27T14:55:09Z",
+        "hash": {
+            "checksum_type": "sha1",
+            "checksume": "0c7bfc669d8b2ad8a063ac41ba8a022f08b39fc6"
+        },
+        "tag": "picard-collect-rna-seq-metrics.v0.1.0"
+    },
+    "_wfpm_ver": "0.7.11",
+    "bugReport": "https://github.com/icgc-argo-qc-wg/argo-qc-tools/issues",
+    "container": {
+        "_image_digest": {
+            "checksum": "af9691592f06db43c9bd6de67779479037afa92dc01a46fed76de6cc6f93f755",
+            "checksum_type": "sha256"
+        },
+        "registries": [
+            {
+                "default": true,
+                "org": "icgc-argo-qc-wg",
+                "registry": "ghcr.io",
+                "type": "docker"
+            }
+        ]
+    },
+    "contributors": [
+        {
+            "email": "linda.xiang@oicr.on.ca",
+            "name": "Linda Xiang"
+        }
+    ],
+    "dependencies": [],
+    "deprecated": false,
+    "description": "Picard tool to produce RNA alignment metrics for a SAM or BAM file",
+    "devDependencies": [],
+    "homepage": "https://github.com/icgc-argo-qc-wg/argo-qc-tools#readme",
+    "keywords": [
+        "aligned seq",
+        "qc metrics"
+    ],
+    "license": "MIT",
+    "main": "main.nf",
+    "name": "picard-collect-rna-seq-metrics",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/icgc-argo-qc-wg/argo-qc-tools.git"
+    },
+    "version": "0.1.0"
+}

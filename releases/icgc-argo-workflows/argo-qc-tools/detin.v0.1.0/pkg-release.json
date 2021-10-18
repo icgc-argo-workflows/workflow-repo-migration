@@ -1,0 +1,66 @@
+{
+    "_release": {
+        "assets": [
+            {
+                "checksum": "b3643eafa846c70e8553ad0802c40073d320adc66bb129c1eebc848ad66e1b3b",
+                "checksum_type": "sha256",
+                "download_url": "https://github.com/icgc-argo-qc-wg/argo-qc-tools/releases/download/detin.v0.1.0/detin.v0.1.0.tar.gz",
+                "filename": "detin.v0.1.0.tar.gz",
+                "size": 8282854
+            },
+            {
+                "_NOTE_": "this file",
+                "checksum": null,
+                "checksum_type": null,
+                "download_url": "https://github.com/icgc-argo-qc-wg/argo-qc-tools/releases/download/detin.v0.1.0/pkg-release.json",
+                "filename": "pkg-release.json",
+                "size": null
+            }
+        ],
+        "created": "2021-10-18T12:43:02Z",
+        "hash": {
+            "checksum_type": "sha1",
+            "checksume": "b046e75600580e451a1972a50e0dcc14d4f9b4da"
+        },
+        "tag": "detin.v0.1.0"
+    },
+    "_wfpm_ver": "0.7.11",
+    "bugReport": "https://github.com/icgc-argo-qc-wg/argo-qc-tools/issues",
+    "container": {
+        "_image_digest": {
+            "checksum": "19202d991c97b0559356f5e2c12dcc1f3b73967f33984c66c2ec325b7d645a8d",
+            "checksum_type": "sha256"
+        },
+        "registries": [
+            {
+                "default": true,
+                "org": "icgc-argo-qc-wg",
+                "registry": "ghcr.io",
+                "type": "docker"
+            }
+        ]
+    },
+    "contributors": [
+        {
+            "email": "rm889@cam.ac.uk",
+            "name": "Raquel Manzano"
+        }
+    ],
+    "dependencies": [],
+    "deprecated": false,
+    "description": "Implementation of deTiN",
+    "devDependencies": [],
+    "homepage": "https://github.com/icgc-argo-qc-wg/argo-qc-tools#readme",
+    "keywords": [
+        "bioinformatics",
+        "qc"
+    ],
+    "license": "MIT",
+    "main": "main.nf",
+    "name": "detin",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/icgc-argo-qc-wg/argo-qc-tools.git"
+    },
+    "version": "0.1.0"
+}

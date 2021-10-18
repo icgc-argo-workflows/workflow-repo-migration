@@ -1,0 +1,66 @@
+{
+    "_release": {
+        "assets": [
+            {
+                "checksum": "324c93882e2d5dfed8a0127f612083ff8d880f0f5b8c8ffb5f5fea449bcb850c",
+                "checksum_type": "sha256",
+                "download_url": "https://github.com/icgc-argo-qc-wg/argo-qc-tools/releases/download/bedtools-mean.v2.30.0/bedtools-mean.v2.30.0.tar.gz",
+                "filename": "bedtools-mean.v2.30.0.tar.gz",
+                "size": 588493
+            },
+            {
+                "_NOTE_": "this file",
+                "checksum": null,
+                "checksum_type": null,
+                "download_url": "https://github.com/icgc-argo-qc-wg/argo-qc-tools/releases/download/bedtools-mean.v2.30.0/pkg-release.json",
+                "filename": "pkg-release.json",
+                "size": null
+            }
+        ],
+        "created": "2021-10-15T18:35:33Z",
+        "hash": {
+            "checksum_type": "sha1",
+            "checksume": "b451cd7c936c6b4bc34404cfcc943bd415ca1753"
+        },
+        "tag": "bedtools-mean.v2.30.0"
+    },
+    "_wfpm_ver": "0.7.11",
+    "bugReport": "https://github.com/icgc-argo-qc-wg/argo-qc-tools/issues",
+    "container": {
+        "_image_digest": {
+            "checksum": "edc36a77c2b95af7b7ddffc658af7546225a1134a9333e2b359899c91ad2d795",
+            "checksum_type": "sha256"
+        },
+        "registries": [
+            {
+                "default": true,
+                "org": "icgc-argo-qc-wg",
+                "registry": "ghcr.io",
+                "type": "docker"
+            }
+        ]
+    },
+    "contributors": [
+        {
+            "email": "pruzanov@oicr.on.ca",
+            "name": "Peter Ruzanov"
+        }
+    ],
+    "dependencies": [],
+    "deprecated": false,
+    "description": "bedtools",
+    "devDependencies": [],
+    "homepage": "https://github.com/icgc-argo-qc-wg/argo-qc-tools#readme",
+    "keywords": [
+        "qc",
+        "metrics"
+    ],
+    "license": "MIT",
+    "main": "main.nf",
+    "name": "bedtools-mean",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/icgc-argo-qc-wg/argo-qc-tools.git"
+    },
+    "version": "2.30.0"
+}

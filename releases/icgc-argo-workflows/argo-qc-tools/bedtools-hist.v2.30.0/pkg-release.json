@@ -1,0 +1,66 @@
+{
+    "_release": {
+        "assets": [
+            {
+                "checksum": "bdbab336f40ae028f1ec7c6717539e14ce4e5379f3e2bd5308530bc9cd495716",
+                "checksum_type": "sha256",
+                "download_url": "https://github.com/icgc-argo-qc-wg/argo-qc-tools/releases/download/bedtools-hist.v2.30.0/bedtools-hist.v2.30.0.tar.gz",
+                "filename": "bedtools-hist.v2.30.0.tar.gz",
+                "size": 280647
+            },
+            {
+                "_NOTE_": "this file",
+                "checksum": null,
+                "checksum_type": null,
+                "download_url": "https://github.com/icgc-argo-qc-wg/argo-qc-tools/releases/download/bedtools-hist.v2.30.0/pkg-release.json",
+                "filename": "pkg-release.json",
+                "size": null
+            }
+        ],
+        "created": "2021-10-15T18:38:13Z",
+        "hash": {
+            "checksum_type": "sha1",
+            "checksume": "360d3a8aaf67f7f37e929f7952da534c379a26da"
+        },
+        "tag": "bedtools-hist.v2.30.0"
+    },
+    "_wfpm_ver": "0.7.11",
+    "bugReport": "https://github.com/icgc-argo-qc-wg/argo-qc-tools/issues",
+    "container": {
+        "_image_digest": {
+            "checksum": "79423918efdf64ce6f08226d2dbfeeedda3adb4d0f2428e3651fa2e53a99725e",
+            "checksum_type": "sha256"
+        },
+        "registries": [
+            {
+                "default": true,
+                "org": "icgc-argo-qc-wg",
+                "registry": "ghcr.io",
+                "type": "docker"
+            }
+        ]
+    },
+    "contributors": [
+        {
+            "email": "pruzanov@oicr.on.ca",
+            "name": "Peter Ruzanov"
+        }
+    ],
+    "dependencies": [],
+    "deprecated": false,
+    "description": "bedtools",
+    "devDependencies": [],
+    "homepage": "https://github.com/icgc-argo-qc-wg/argo-qc-tools#readme",
+    "keywords": [
+        "qc",
+        "metrics"
+    ],
+    "license": "MIT",
+    "main": "main.nf",
+    "name": "bedtools-hist",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/icgc-argo-qc-wg/argo-qc-tools.git"
+    },
+    "version": "2.30.0"
+}

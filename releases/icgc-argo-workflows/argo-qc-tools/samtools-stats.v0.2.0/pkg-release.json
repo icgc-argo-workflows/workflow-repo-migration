@@ -1,0 +1,69 @@
+{
+    "_release": {
+        "assets": [
+            {
+                "checksum": "ba1582daec845251fdb2067351066dfd014965ca5d8b4de95242a33aa09aa7e9",
+                "checksum_type": "sha256",
+                "download_url": "https://github.com/icgc-argo-qc-wg/argo-qc-tools/releases/download/samtools-stats.v0.2.0/samtools-stats.v0.2.0.tar.gz",
+                "filename": "samtools-stats.v0.2.0.tar.gz",
+                "size": 49533
+            },
+            {
+                "_NOTE_": "this file",
+                "checksum": null,
+                "checksum_type": null,
+                "download_url": "https://github.com/icgc-argo-qc-wg/argo-qc-tools/releases/download/samtools-stats.v0.2.0/pkg-release.json",
+                "filename": "pkg-release.json",
+                "size": null
+            }
+        ],
+        "created": "2021-08-26T12:45:11Z",
+        "hash": {
+            "checksum_type": "sha1",
+            "checksume": "992a39c2e1971f20c64f3fd06dad06a00df55107"
+        },
+        "tag": "samtools-stats.v0.2.0"
+    },
+    "_wfpm_ver": "0.7.8",
+    "bugReport": "https://github.com/icgc-argo-qc-wg/argo-qc-tools/issues",
+    "container": {
+        "_image_digest": {
+            "checksum": "22a07ffbf38b39e8feb21abf50368c465a47ae495abafddcecf9b6258dfd5154",
+            "checksum_type": "sha256"
+        },
+        "registries": [
+            {
+                "default": true,
+                "org": "icgc-argo-qc-wg",
+                "registry": "ghcr.io",
+                "type": "docker"
+            }
+        ]
+    },
+    "contributors": [
+        {
+            "email": "junjun.ca@gmail.com",
+            "name": "Junjun Zhang"
+        }
+    ],
+    "dependencies": [
+        "github.com/icgc-argo/data-processing-utility-tools/helper-functions@1.0.1"
+    ],
+    "deprecated": false,
+    "description": "Samtools stats",
+    "devDependencies": [],
+    "homepage": "https://github.com/icgc-argo-qc-wg/argo-qc-tools#readme",
+    "keywords": [
+        "bioinformatics",
+        "seq",
+        "qc metrics"
+    ],
+    "license": "MIT",
+    "main": "main.nf",
+    "name": "samtools-stats",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/icgc-argo-qc-wg/argo-qc-tools.git"
+    },
+    "version": "0.2.0"
+}

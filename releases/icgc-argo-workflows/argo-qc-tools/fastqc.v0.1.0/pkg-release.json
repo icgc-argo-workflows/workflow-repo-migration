@@ -1,0 +1,67 @@
+{
+    "_release": {
+        "assets": [
+            {
+                "checksum": "841783e821ba8d9a87b94f7d3faf1b56cf0fd32f6398fb80367a32e73ecc73ca",
+                "checksum_type": "sha256",
+                "download_url": "https://github.com/icgc-argo-qc-wg/argo-qc-tools/releases/download/fastqc.v0.1.0/fastqc.v0.1.0.tar.gz",
+                "filename": "fastqc.v0.1.0.tar.gz",
+                "size": 981329
+            },
+            {
+                "_NOTE_": "this file",
+                "checksum": null,
+                "checksum_type": null,
+                "download_url": "https://github.com/icgc-argo-qc-wg/argo-qc-tools/releases/download/fastqc.v0.1.0/pkg-release.json",
+                "filename": "pkg-release.json",
+                "size": null
+            }
+        ],
+        "created": "2021-09-27T14:54:21Z",
+        "hash": {
+            "checksum_type": "sha1",
+            "checksume": "3f0a818ac11c670769d0859e9a8cd1a3115e2b6a"
+        },
+        "tag": "fastqc.v0.1.0"
+    },
+    "_wfpm_ver": "0.7.11",
+    "bugReport": "https://github.com/icgc-argo-qc-wg/argo-qc-tools/issues",
+    "container": {
+        "_image_digest": {
+            "checksum": "e8e7cb1d82d98fdb3b640169c713fb44b59807688990255e13a79e8f40dc0596",
+            "checksum_type": "sha256"
+        },
+        "registries": [
+            {
+                "default": true,
+                "org": "icgc-argo-qc-wg",
+                "registry": "ghcr.io",
+                "type": "docker"
+            }
+        ]
+    },
+    "contributors": [
+        {
+            "email": "linda.xiang@oicr.on.ca",
+            "name": "Linda Xiang"
+        }
+    ],
+    "dependencies": [],
+    "deprecated": false,
+    "description": "FastQC tool",
+    "devDependencies": [],
+    "homepage": "https://github.com/icgc-argo-qc-wg/argo-qc-tools#readme",
+    "keywords": [
+        "bioinformatics",
+        "seq",
+        "qc metrics"
+    ],
+    "license": "MIT",
+    "main": "main.nf",
+    "name": "fastqc",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/icgc-argo-qc-wg/argo-qc-tools.git"
+    },
+    "version": "0.1.0"
+}

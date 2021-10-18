@@ -1,0 +1,67 @@
+{
+    "_release": {
+        "assets": [
+            {
+                "checksum": "8de64a99502f01836de48b9caf7d9000501bbfa2eb87c2e05c8a531994a79175",
+                "checksum_type": "sha256",
+                "download_url": "https://github.com/icgc-argo-qc-wg/argo-qc-tools/releases/download/picard-collect-hs-metrics.v0.2.0/picard-collect-hs-metrics.v0.2.0.tar.gz",
+                "filename": "picard-collect-hs-metrics.v0.2.0.tar.gz",
+                "size": 476618
+            },
+            {
+                "_NOTE_": "this file",
+                "checksum": null,
+                "checksum_type": null,
+                "download_url": "https://github.com/icgc-argo-qc-wg/argo-qc-tools/releases/download/picard-collect-hs-metrics.v0.2.0/pkg-release.json",
+                "filename": "pkg-release.json",
+                "size": null
+            }
+        ],
+        "created": "2021-09-17T12:56:51Z",
+        "hash": {
+            "checksum_type": "sha1",
+            "checksume": "3174b29fd0a01323927f45e8f4ff1563adb13956"
+        },
+        "tag": "picard-collect-hs-metrics.v0.2.0"
+    },
+    "_wfpm_ver": "0.7.11",
+    "bugReport": "https://github.com/icgc-argo-qc-wg/argo-qc-tools/issues",
+    "container": {
+        "_image_digest": {
+            "checksum": "9841e6c05b63d2769b7551fa9066c2f3f7145370c04f1dac632401dd83936267",
+            "checksum_type": "sha256"
+        },
+        "registries": [
+            {
+                "default": true,
+                "org": "icgc-argo-qc-wg",
+                "registry": "ghcr.io",
+                "type": "docker"
+            }
+        ]
+    },
+    "contributors": [
+        {
+            "email": "abenjak@gmail.com",
+            "name": "Andrej Benjak"
+        }
+    ],
+    "dependencies": [],
+    "deprecated": false,
+    "description": "Picard CollectHsMetrics",
+    "devDependencies": [],
+    "homepage": "https://github.com/icgc-argo-qc-wg/argo-qc-tools#readme",
+    "keywords": [
+        "qc metrics",
+        "wes",
+        "exome"
+    ],
+    "license": "MIT",
+    "main": "main.nf",
+    "name": "picard-collect-hs-metrics",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/icgc-argo-qc-wg/argo-qc-tools.git"
+    },
+    "version": "0.2.0"
+}

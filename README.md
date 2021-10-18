@@ -82,7 +82,8 @@ is an example commit update the organization for two packages under the reposito
  * assume the package name is `pkg-a` and the latest version is `1.2.3`, start a new
    version using `wfpm nextver pkg-a@1.2.3 1.2.3.1`. This will create a new branch
    `pkg-a@1.2.3.1` and make it the current branch.
- * then merge the update from main branch `git merge main`
+ * then merge the update from main branch `git merge main`, address merge conflict in
+   `pkg.json` file as needed (take incoming changes).
  * continue as usual with: git push, create PR and merge PR. Do NOT release the
    package when merge the PR (note that after merged to main, GitHub actions tests are
    expected to fail, which is why we can't release yet)

@@ -108,6 +108,6 @@ is an example commit update the organization for two packages under the reposito
 | [gatk-mutect2-variant-calling](https://github.com/icgc-argo/gatk-mutect2-variant-calling)                        | icgc-argo  | completed | [gatk-mutect2-variant-calling](https://github.com/icgc-argo-workflows/gatk-mutect2-variant-calling)  | icgc-argo-workflows |
 | [variant-calling-tools](https://github.com/icgc-argo/variant-calling-tools)                        | icgc-argo  | completed | [variant-calling-tools](https://github.com/icgc-argo-workflows/variant-calling-tools)  | icgc-argo-workflows |
 | [open-access-variant-filtering](https://github.com/icgc-argo/open-access-variant-filtering)                        | icgc-argo  | completed | [open-access-variant-filtering](https://github.com/icgc-argo-workflows/open-access-variant-filtering)  | icgc-argo-workflows |
-| [icgc-argo-sv-copy-number](https://github.com/ICGC-ARGO-Structural-Variation-CN-WG/icgc-argo-sv-copy-number) | ICGC-ARGO-Structural-Variation-CN-WG  | to be completed |   | icgc-argo-workflows |
+| [icgc-argo-sv-copy-number](https://github.com/ICGC-ARGO-Structural-Variation-CN-WG/icgc-argo-sv-copy-number) | ICGC-ARGO-Structural-Variation-CN-WG  | completed | [icgc-argo-sv-copy-number](https://github.com/icgc-argo-workflows/icgc-argo-sv-copy-number)  | icgc-argo-workflows |
 | [argo-qc-tools](https://github.com/icgc-argo-qc-wg/argo-qc-tools) | icgc-argo-qc-wg  | to be completed |   | icgc-argo-workflows |
-
+| [rna-seq-alignment](https://github.com/icgc-argo-rna-wg/rna-seq-alignment) | icgc-argo-rna-wg  | completed | [rna-seq-alignment](https://github.com/icgc-argo-workflows/rna-seq-alignment)  | icgc-argo-workflows |
